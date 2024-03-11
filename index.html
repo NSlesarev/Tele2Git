@@ -2,13 +2,239 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Tele2Git/assets/lofofav32x32-erIZMqWN.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-    <script type="module" crossorigin src="/Tele2Git/assets/index-Bud4UPa6.js"></script>
-    <link rel="stylesheet" crossorigin href="/Tele2Git/assets/index-4ynJaBhm.css">
+    <link rel="shortcut icon" href="/Tele2Git/assets/lofofav32x32-erIZMqWN.png" type="image/x-icon">
+    <title>Tele2</title>
+    <script type="module" crossorigin src="/Tele2Git/assets/index-DsWiUlnm.js"></script>
+    <link rel="stylesheet" crossorigin href="/Tele2Git/assets/index-CAuMeJUJ.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div class="background-color-modal"></div>
+    <header class="header">
+        <a href="/" class="header_logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAhCAYAAABduGw9AAAABHNCSVQICAgIfAhkiAAAAkZJREFUaIHtmWuygyAMhU/uuC/pytSVSVeW+ye0NOURW/HR8ZtxRHl6JoSAwIUJZnZyDfzKzMzD3uM7JSLoHImZEjjmEjoQLLKQnxKyJvCjXGin2+Jj9iL60F7uTt29XLreAGD8oushtHt6gZWIDgCI6MbMM55CLmnvW3EBwDHzQETTl+3sR2mqSv6cy4+YE+0Wp36p39Q4/rYWJgcX/OGGY1h1kWJmt6mLYGZHRF7SwXpclH8L+Tsx1goQ0STGaSq/usCc8IlQi4qUcTgQNeslIorSk9RxKH9Hv1hgZYUDXkX0co1L290Ir9J3Y70x835CxVCSAit/mLJEkjK5jo/AJBeMbsflMr6JBjplhcWOzsRGvryv5N87HNsKj85YyiQi3zqK8Cpt9Xl74KK0z6QfGEK6MRRcjNRziay3wD0zuFRdXhILc2WjkevX2v6H438bQ86Cvbo/LG/nONUMP9cWp96vEWvXDGkMiQ7ALTwQUYhR48MRfxZRFQ4NFmzLLI2jji4hXqqBj8MUjuLms8O2A6Qxflj9LEL7RgDzWr5vT6zi6pj5MIc9R8York9tSC6BC0i0YD1XTrrR0x+4F/CpZ+t6IG7NFHYCyEYmPyuwTNePFue1xAXaCHyHWknPFEWsKS7QQGDpsNjpUeH0/zifKW7aH/ysi/iEmlvR4WYl/OyBEwps3bioHanGyd3LLyAHu1tYRKtfRtlz0trhdWaaxnjYXJA+587R9Nd6CwvukRfIo/EHHY1ro9GYS+DGXAI35hK4Mf81+rh953WLIgAAAABJRU5ErkJggg==" alt="лого">
+        </a>
+        <button class="header_city">
+            <img class="header_city_icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAStJREFUWIXtVdEOwiAMPIz/Zfdl7M/AL6sPK7FjhTHGNDFessQU6B1XWoE/vgx39AAzE4AHAJIQAZjl99M5F8/LKpN7fiPIp2PMzP4KYhKyKkEmhkYKaE6qRIRR5Clhs7Xi2Ply1BKpsvjCehJOZwR4ZmYjnt6DxsbyFhduDTpiLgpL601OgKUNySCLeLfrcVg3qJQk5G5JrPoYWxwglZDK29ZOqVjtTB3WDXbqne8d40B281liXj5SJDE/a8TaUWpD3o7f4p5ucpVo87iUuOQAGeu7Ldgq4PBU447puZfQdKGyfxy5JGx2gUeM4N7Ew603CMwZoNYPlapHQO3f8drbK6KQl+Jj5IpwVYo0iXpy3Ts1TACCiIgSmztz9YHX4/gz1hdEfIf8j5/BC3aQGo8iXtwTAAAAAElFTkSuQmCC" alt="локация">
+            <p class="header_city_city">Санкт-Петербург</p>
+
+            <div class="header-planka">
+
+                <div class="header-planka__container">
+                        <img class="header-planka__container__img" src="data:image/svg+xml,%3csvg%20width='16.000000'%20height='7.585815'%20viewBox='0%200%2016%207.58582'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs/%3e%3cpath%20id='Rectangle%20225'%20d='M8.70703%200.292969L16%207.58582L0%207.58582L7.29297%200.292969C7.68335%20-0.0976562%208.31665%20-0.0976562%208.70703%200.292969Z'%20fill='%23FFFFFF'%20fill-opacity='1.000000'%20fill-rule='evenodd'/%3e%3c/svg%3e" alt="">
+
+                        <p class="header-planka__container__title">Ваш регион Санкт-Петербург?<span id="currentCity"></span></p>
+
+                    <div class="header-planka__options">
+                        
+                        <p class="header-planka__options__yes">Да, верно</p>
+                        <p class="header-planka__options__change">Изменить регион</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </button>
+    </header>
+    <section class="city-desctop">
+        <h3 class="h3-des">Выберите город</h3>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Воронеж</td>
+                <td class="city">Москва</td>
+                <td class="city">Ростов-на-Дону</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Иркутск</td>
+                <td class="city">Н.Новгород</td>
+                <td class="city">Санкт-Петербург</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Кемерово</td>
+                <td class="city">Новосибирск</td>
+                <td class="city">Челябинск</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Красноярск</td>
+                <td class="city">Пермь</td>
+            </tr>
+        </table>
+    </section>
+    <section class="city-mobile">
+        <h3 class="h3-mob">Выберите город</h3>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Воронеж</td>
+                <td class="city">Новосибирск</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Иркутск</td>
+                <td class="city">Пермь</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Кемерово</td>
+                <td class="city">Санкт-Петербург</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Красноярск</td>
+                <td class="city">Челябинск</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Москва</td>
+                <td class="city">Ростов-на-Дону</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Н.Новгород</td>
+            </tr>
+        </table>
+    </section>
+    <section class="promo">
+        <main class="promo_text">
+            <p class="promo_text_mini">Акция продлится с 1 по 20 сентября</p>
+            <h1 class="promo_text_title">это ваша <br><span class="promo_text_title_span_color">выгода!</span></h1>
+            <p class="promo_text_opisanie">Тариф «Мой онлайн+» и 1 ТБ трафика<br> в подарок для новых абонентов</p>
+            <button class="promo_buttom">Принять участие</button>
+        </main>
+        <img class="promo_img" src="/Tele2Git/assets/Boss12-BQE94Aw1.png" alt="Дед с интернетом">
+    </section>
+    <section class="presents">
+        <main class="presents_text">
+            <h2 class="presents_title">Один терабайт — много любимых развлечений</h2>
+            <p class="presents_opisanie">Подарок получают только новые абоненты при подключении услуг Tele2 <br> 
+                с тарифом «Мой онлайн+». Трафик расходуется в течение года. </p>
+        </main>
+        <div class="present_bonus">
+            <div class="presents_bonus_one1">
+                <img class="presents_img" src="data:image/svg+xml,%3csvg%20width='72.000000'%20height='72.000000'%20viewBox='0%200%2072%2072'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs%3e%3cclipPath%20id='clip538_675'%3e%3crect%20id='Frame%209'%20width='40.000000'%20height='40.000000'%20transform='translate(16.000000%2016.000000)'%20fill='white'%20fill-opacity='0'/%3e%3c/clipPath%3e%3c/defs%3e%3ccircle%20id='Ellipse%2030'%20cx='36.000000'%20cy='36.000000'%20r='36.000000'%20fill='%2339404C'%20fill-opacity='1.000000'/%3e%3crect%20id='Frame%209'%20width='40.000000'%20height='40.000000'%20transform='translate(16.000000%2016.000000)'%20fill='%231F2229'%20fill-opacity='0'/%3e%3cg%20clip-path='url(%23clip538_675)'%3e%3crect%20id='Rectangle%20223'%20x='20.000000'%20y='24.000000'%20rx='4.000000'%20width='32.000000'%20height='24.000000'%20stroke='%2348CCFD'%20stroke-opacity='1.000000'%20stroke-width='2.000000'/%3e%3cpath%20id='Polygon%202'%20d='M34%2030.8038C33.3335%2030.4189%2032.5%2030.9001%2032.5%2031.6699L32.5%2040.3301C32.5%2041.0999%2033.3335%2041.5811%2034%2041.1962L41.5%2036.866C42.1665%2036.4811%2042.1665%2035.5189%2041.5%2035.134L34%2030.8038Z'%20stroke='%2348CCFD'%20stroke-opacity='1.000000'%20stroke-width='1.000000'/%3e%3c/g%3e%3c/svg%3e" alt="кружок плей">
+                <p class="presents_bonus_one_text">Около 500 часов видео</p>
+            </div>
+            <div class="presents_bonus_one2">
+                <img class="presents_img" src="data:image/png;base64,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" alt="кружок плей">
+                <p class="presents_bonus_one_text">Примерно 200 000 песен</p>
+            </div>
+            <div class="presents_bonus_one3">
+                <img class="presents_img" src="data:image/png;base64,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" alt="кружок плей">
+                <p class="presents_bonus_one_text">Порядка 300 000 фото</p>
+            </div>
+        </div>      
+    </section>
+    <section class="number">
+        <main class="number_text">
+            <h2 class="number_text_title_mobile">Оставьте номер<br> и<span class="number_span_blue"> 1 ТБ — ваш</span></h2>
+            <h2 class="number_text_title_desctop">Несколько шагов<br><span class="number_span_blue">и 1 ТБ — ваш</span></h2>
+            <form class="form_number_desctop">
+                <label class="number_text_tel">
+                    <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
+                    <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+                </label>
+                <p>               
+                    <input class="number_text_data_box" type="checkbox" id="agree-des">
+                    <label class="number_text_data" for="agree-des">
+                        <p class="number_text_data_data">Даю согласие на обработку персональных данных. <a class="number_text_data_link1" href="/"> Условия соглашения</a>.</p></label> 
+                </p> 
+                <input class="number_text_button" type="submit" value="Выслать промокод"></input>
+            </form>
+        </main>
+        <aside class="number_rules">
+            <div class="number_rules_2">
+                <img class="number_rules_img" src="data:image/svg+xml,%3csvg%20width='80.000000'%20height='80.000000'%20viewBox='0%200%2080%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs/%3e%3cpath%20id='1'%20d='M48.8%2050.44L48.8%2055.6L32.84%2055.6L32.84%2050.44L38.04%2050.44L38.04%2031.68L32.52%2034.08L32.52%2028.48L40.04%2025.2L43.88%2025.2L43.88%2050.44L48.8%2050.44Z'%20fill='%2348CCFD'%20fill-opacity='1.000000'%20fill-rule='evenodd'/%3e%3ccircle%20id='Ellipse%2033'%20cx='40.000000'%20cy='40.000000'%20r='39.000000'%20stroke='%2339404C'%20stroke-opacity='1.000000'%20stroke-width='2.000000'/%3e%3c/svg%3e" alt="кружок 1">
+                <p class="number_rules_1_text">Ведите свой номер телефона, затем дождитесь<br> смс с промокодом для получения Тб</p>
+            </div>
+            <div class="number_rules_2">
+                <img class="number_rules_img" src="data:image/svg+xml,%3csvg%20width='80.000000'%20height='80.000000'%20viewBox='0%200%2080%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs/%3e%3cpath%20id='2'%20d='M49.4345%2049.44L49.4345%2054.6L30.7945%2054.6L30.7945%2049.56C30.7945%2049.56%2036.4345%2043.04%2038.5145%2040.72C40.9545%2037.84%2042.3145%2035.52%2042.3145%2032.88C42.3145%2030.68%2041.3545%2029.04%2038.6345%2029.04C37.7545%2029.04%2036.9145%2029.2%2036.1145%2029.6L36.1145%2033.48L31.1945%2033.48L31.1945%2025.96C33.1145%2024.64%2036.2745%2023.88%2039.7145%2023.88C45.3145%2023.88%2048.3545%2027.2%2048.3545%2032.32C48.3545%2036.88%2046.0345%2040.12%2042.5945%2044C41.2345%2045.48%2039.3545%2047.64%2037.7945%2049.44L49.4345%2049.44Z'%20fill='%2348CCFD'%20fill-opacity='1.000000'%20fill-rule='evenodd'/%3e%3ccircle%20id='Ellipse%2033'%20cx='40.000000'%20cy='40.000000'%20r='39.000000'%20stroke='%2339404C'%20stroke-opacity='1.000000'%20stroke-width='2.000000'/%3e%3c/svg%3e" alt="кружок 2">
+                <p class="number_rules_2_text">Перейдите на <a class="number_rules_2_text_site" href="/">сайт Tele2</a> и активируйте промокод при подключении на тариф «Мой Онлайн+»
+                </p>
+            </div>
+            <div class="number_rules_2">
+                <img class="number_rules_img" src="data:image/svg+xml,%3csvg%20width='80.000000'%20height='80.000000'%20viewBox='0%200%2080%2080'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs/%3e%3cpath%20id='3'%20d='M50.0658%2046.28C50.0658%2051.64%2046.8658%2056%2040.1058%2056C35.7058%2056%2030.9458%2053.76%2030.8258%2046.68L36.4658%2046.68C36.5458%2049.16%2037.7858%2050.84%2040.0658%2050.84C42.3058%2050.84%2044.0258%2049.2%2044.0258%2046.36C44.0258%2043.52%2042.2658%2042.08%2039.3858%2042.08C38.1458%2042.08%2036.9458%2042.28%2036.7458%2042.32L36.7458%2037.48C41.5058%2037.2%2042.7858%2035.2%2042.7858%2033.12C42.7858%2031%2041.5058%2029.96%2039.3858%2029.96C38.4658%2029.96%2037.5458%2030.12%2036.7858%2030.44L36.7858%2034.48L31.9058%2034.48L31.9058%2026.96C33.9058%2025.76%2036.9058%2024.88%2040.3458%2024.88C45.7858%2024.88%2048.7858%2027.84%2048.7858%2032.04C48.7858%2035.8%2046.3058%2038.08%2043.7458%2038.88L43.7458%2039.12C47.6258%2039.56%2050.0658%2042.48%2050.0658%2046.28Z'%20fill='%2348CCFD'%20fill-opacity='1.000000'%20fill-rule='evenodd'/%3e%3ccircle%20id='Ellipse%2033'%20cx='40.000000'%20cy='40.000000'%20r='39.000000'%20stroke='%2339404C'%20stroke-opacity='1.000000'%20stroke-width='2.000000'/%3e%3c/svg%3e" alt="кружок 3">
+                <p class="number_rules_3_text">Используйте свой подарочный ТБ от Tele2 <br> в течение всего года</p>
+            </div>
+        </aside>
+        <form class="form_number_mobile">
+            <label class="number_text_tel">
+                <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
+                <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+            </label>
+            <p>               
+                <input class="number_text_data_box" type="checkbox" id="agree-mob">
+                <label class="number_text_data" for="agree-mob">
+                    <p class="number_text_data_data">Даю согласие на обработку персональных данных. <a class="number_text_data_link1" href="/"> Условия соглашения</a>.</p></label> 
+            </p> 
+            <input class="number_text_button" type="submit" value="Выслать промокод"></input>
+        </form>
+    </section>
+    <section class="rate">
+        <div class="rate-content">
+            <div class="rate-content__text">
+                <div class="rate-content__text__title">Заходите на сайт Tele2</div>
+                <div class="rate-content__text__opisanie__desctop">Перейдите в магазин, оформите тариф «Мой онлайн+»<br> и на страничке активации введите ваш промокод. Готово! </div>
+                <div class="rate-content__text__opisanie__mobile">Перейдите в магазин на страничку активации, введите ваш промокод. Готово! Теперь вы получите 1 ТБ на ваш телефон при подключении тарифа «Мой онлайн+».</div>
+                <button class="rate-content__text__button_desctop">
+                    <a class="button__site__desctop" href="https://rostov.tele2.ru/" target="_blank">Оформить тариф</a>
+                </button>
+            </div>
+            <div class="rate-content_img">
+                <img class="rate-content_img_img" src="/Tele2Git/assets/telefon-sc2RWFrP.png" alt="картинка с телефоном и фоном круглым">
+            </div>
+            <button class="rate-content__text__button_mobile">
+                <a class="button__site__mobile" href="https://rostov.tele2.ru/">Оформить тариф</a>
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <div class="icon-media media-1">
+                    <a class="icon-media__link" href="">
+                        <img class="icon-media__img img1" src="data:image/svg+xml,%3csvg%20width='25.000000'%20height='18.000000'%20viewBox='0%200%2025%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs/%3e%3cpath%20id='Shape%20Copy'%20d='M25%201.89478C24.0801%202.49219%2023.0918%202.73645%2021.875%202.84216C23.1133%202.28394%2023.9263%201.39343%2023.9585%200C23.3184%200.853027%2022.2207%201.2312%2020.8335%201.89478C20.1167%200.551758%2018.7837%200%2017.7085%200C14.4761%200%2012.1797%202.03442%2012.5%204.73682C12.1797%204.90015%2012.2246%205.24695%2012.5%205.6842C8.0498%205.39001%204.27002%203.58093%202.0835%200.947388C1.29883%201.50281%201.0459%202.28333%201.0415%202.84216C1.0459%204.69275%201.95166%206.08362%203.125%206.63159C2.48682%206.87488%201.69629%206.67053%201.0415%206.63159C1.00439%208.58899%202.77246%2010.4255%205.2085%2010.421C4.68799%2010.9468%204.23486%2011.0026%204.1665%2011.3684C3.43652%2011.0026%203.11523%2010.974%203.125%2011.3684C3.45508%2012.7261%205.34912%2014.04%207.2915%2014.2106C5.83838%2015.2955%203.62646%2016.0219%201.0415%2016.1052C0.80957%2016.0219%200.401367%2016.0005%200%2016.1052C2.27002%2017.2477%204.96582%2018%208.3335%2018C17.2964%2018%2022.4556%2011.0757%2022.9165%204.73682C23.4429%203.84229%2024.3125%203.04199%2025%201.89478Z'%20fill='%23FFFFFF'%20fill-opacity='1.000000'%20fill-rule='nonzero'/%3e%3c/svg%3e" alt="Твиттер"></a>
+                </div>
+                <div class="icon-media media-2">
+                    <a class="icon-media__link" href="">
+                        <img class="icon-media__img img2" src="data:image/svg+xml,%3csvg%20width='40.000000'%20height='40.000000'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs%3e%3cclipPath%20id='clip538_764'%3e%3crect%20id='Icon/Social/VKontakte'%20width='40.000000'%20height='40.000000'%20fill='white'%20fill-opacity='0'/%3e%3c/clipPath%3e%3c/defs%3e%3crect%20id='Icon/Social/VKontakte'%20width='40.000000'%20height='40.000000'%20fill='%23FFFFFF'%20fill-opacity='0'/%3e%3cg%20clip-path='url(%23clip538_764)'%3e%3cpath%20id='Vector'%20d='M29.4053%2022.1748C28.9688%2021.6149%2029.0938%2021.3657%2029.4053%2020.8651C29.4106%2020.8594%2033.0142%2015.8011%2033.3857%2014.0857L33.3877%2014.0846C33.5723%2013.4595%2033.3877%2013%2032.4956%2013L29.5435%2013C28.792%2013%2028.4453%2013.3943%2028.2598%2013.8354C28.2598%2013.8354%2026.7568%2017.4902%2024.6304%2019.8594C23.9443%2020.5439%2023.627%2020.7634%2023.2524%2020.7634C23.0679%2020.7634%2022.7808%2020.5439%2022.7808%2019.9188L22.7808%2014.0846C22.7808%2013.3348%2022.5703%2013%2021.9482%2013L17.3066%2013C16.835%2013%2016.5552%2013.3497%2016.5552%2013.6754C16.5552%2014.3862%2017.6182%2014.5497%2017.7285%2016.5497L17.7285%2020.8892C17.7285%2021.84%2017.5586%2022.0149%2017.1816%2022.0149C16.1782%2022.0149%2013.7422%2018.3451%2012.2988%2014.1451C12.0073%2013.3303%2011.7231%2013.0011%2010.9658%2013.0011L8.0127%2013.0011C7.16992%2013.0011%207%2013.3954%207%2013.8365C7%2014.616%208.00342%2018.4915%2011.6665%2023.6115C14.1079%2027.1063%2017.5459%2029%2020.6738%2029C22.5537%2029%2022.7832%2028.5795%2022.7832%2027.856C22.7832%2024.5166%2022.6133%2024.2012%2023.5552%2024.2012C23.9917%2024.2012%2024.7432%2024.4205%2026.498%2026.1063C28.5039%2028.1051%2028.8335%2029%2029.9565%2029L32.9087%2029C33.75%2029%2034.1763%2028.5795%2033.9312%2027.7498C33.3696%2026.0045%2029.5762%2022.4149%2029.4053%2022.1748Z'%20fill='%23FFFFFF'%20fill-opacity='1.000000'%20fill-rule='nonzero'/%3e%3c/g%3e%3c/svg%3e" alt="ВКонтакте"></a>
+                </div>
+                <div class="icon-media media-3">
+                    <a class="icon-media__link" href="">
+                        <img class="icon-media__img img3" src="data:image/svg+xml,%3csvg%20width='40.000000'%20height='40.000000'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs%3e%3cclipPath%20id='clip538_766'%3e%3crect%20id='Icon/Social/Facebook'%20width='40.000000'%20height='40.000000'%20fill='white'%20fill-opacity='0'/%3e%3c/clipPath%3e%3c/defs%3e%3crect%20id='Icon/Social/Facebook'%20width='40.000000'%20height='40.000000'%20fill='%23FFFFFF'%20fill-opacity='0'/%3e%3cg%20clip-path='url(%23clip538_766)'%3e%3cpath%20id='Vector'%20d='M23.8989%2010.5662L26.3335%2010.5662L26.3335%206.1936C25.9136%206.13403%2024.4692%206%2022.7871%206C19.2773%206%2016.873%208.27673%2016.873%2012.4613L16.873%2016.3125L13%2016.3125L13%2021.2007L16.873%2021.2007L16.873%2033.5L21.6216%2033.5L21.6216%2021.2018L25.3379%2021.2018L25.9277%2016.3136L21.6206%2016.3136L21.6206%2012.946C21.6216%2011.5332%2021.9902%2010.5662%2023.8989%2010.5662Z'%20fill='%23FFFFFF'%20fill-opacity='1.000000'%20fill-rule='nonzero'/%3e%3c/g%3e%3c/svg%3e" alt="Фейсбук"></a>
+                </div>
+            </div>
+            <div class="footer-promotion">
+                <div class="footer-promotion__text">Полные условия акци</div>
+                <div class="footer-promotion__img">
+                    <img class="footer-promotion__img__img" src="./src/assets/img/16.svg" alt="16+">
+                </div>
+            </div>
+        </div>
+        <hr class="footer-poloska">
+        <div class="footer-info">
+            <div class="footer-info__logo">
+                <a class="footer-info__logo__img" href="">
+                    <img class="footer-info__logo__img__img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAhCAYAAABduGw9AAAABHNCSVQICAgIfAhkiAAAAkZJREFUaIHtmWuygyAMhU/uuC/pytSVSVeW+ye0NOURW/HR8ZtxRHl6JoSAwIUJZnZyDfzKzMzD3uM7JSLoHImZEjjmEjoQLLKQnxKyJvCjXGin2+Jj9iL60F7uTt29XLreAGD8oushtHt6gZWIDgCI6MbMM55CLmnvW3EBwDHzQETTl+3sR2mqSv6cy4+YE+0Wp36p39Q4/rYWJgcX/OGGY1h1kWJmt6mLYGZHRF7SwXpclH8L+Tsx1goQ0STGaSq/usCc8IlQi4qUcTgQNeslIorSk9RxKH9Hv1hgZYUDXkX0co1L290Ir9J3Y70x835CxVCSAit/mLJEkjK5jo/AJBeMbsflMr6JBjplhcWOzsRGvryv5N87HNsKj85YyiQi3zqK8Cpt9Xl74KK0z6QfGEK6MRRcjNRziay3wD0zuFRdXhILc2WjkevX2v6H438bQ86Cvbo/LG/nONUMP9cWp96vEWvXDGkMiQ7ALTwQUYhR48MRfxZRFQ4NFmzLLI2jji4hXqqBj8MUjuLms8O2A6Qxflj9LEL7RgDzWr5vT6zi6pj5MIc9R8York9tSC6BC0i0YD1XTrrR0x+4F/CpZ+t6IG7NFHYCyEYmPyuwTNePFue1xAXaCHyHWknPFEWsKS7QQGDpsNjpUeH0/zifKW7aH/ysi/iEmlvR4WYl/OyBEwps3bioHanGyd3LLyAHu1tYRKtfRtlz0trhdWaaxnjYXJA+587R9Nd6CwvukRfIo/EHHY1ro9GYS+DGXAI35hK4Mf81+rh953WLIgAAAABJRU5ErkJggg==" alt="лого теле2">
+                </a>
+                <p class="footer-info__text">© Tele2 Россия, 2021</p>
+            </div>
+                
+            <div class="footer-oleg">
+                <div class="footer-oleg__studio">
+                    <p class="footer-oleg__studio__text">Сделано в Студии Олега Чулакова</p>
+                </div>
+                <div class="footer-oleg__logo">
+                    <img class="footer-oleg__logo__img" src="data:image/svg+xml,%3csvg%20width='140.000000'%20height='16.000000'%20viewBox='0%200%20140%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs%3e%3cclipPath%20id='clip538_756'%3e%3crect%20id='Logo%201'%20width='140.000000'%20height='16.000000'%20fill='white'%20fill-opacity='0'/%3e%3c/clipPath%3e%3c/defs%3e%3crect%20id='Logo%201'%20width='140.000000'%20height='16.000000'%20fill='%23FFFFFF'%20fill-opacity='0'/%3e%3cg%20clip-path='url(%23clip538_756)'%3e%3cpath%20id='Vector'%20d='M15.2854%209.91016L10.8706%209.91016C10.8516%2010.2699%2010.7612%2010.6218%2010.6052%2010.9451C10.4492%2011.2682%2010.2307%2011.5559%209.96313%2011.7908C9.69312%2012.0276%209.37988%2012.2072%209.04126%2012.3192C8.70264%2012.4312%208.3457%2012.4733%207.99097%2012.4431C5.87036%2012.4431%204.68164%2010.8604%204.68164%208.06531L4.68164%207.89539C4.68164%205.07825%205.93677%203.51758%207.93066%203.51758C8.26367%203.49048%208.59839%203.53394%208.91406%203.64514C9.22974%203.75635%209.51953%203.93286%209.76514%204.1637C10.26%204.63025%2010.5352%205.28369%2010.5278%205.96558L15.0935%205.96558C14.7253%201.87085%2011.9338%200.00866699%207.91016%200.00866699C6.86572%20-0.0438232%205.82202%200.124268%204.84448%200.502563C3.86694%200.880859%202.97656%201.46106%202.22925%202.20679C1.4873%202.94666%200.906006%203.83728%200.522949%204.8208C0.140137%205.80432%20-0.0361328%206.85901%200.00610352%207.91638L0.00610352%208.08862C0.00610352%2012.8369%202.66846%2016%208.08032%2016C12.0835%2016%2014.9836%2013.9152%2015.2854%209.91016ZM23.7905%2015.7391L23.7905%209.63452L28.8762%209.63452L28.8762%2015.7391L33.3081%2015.7391L33.3081%200.246216L28.8762%200.246216L28.8762%206.16248L23.7893%206.16248L23.7893%200.246216L19.3311%200.246216L19.3311%2015.7343L23.7905%2015.7391ZM51.9595%209.39087L51.9595%200.246216L47.4795%200.246216L47.4795%209.19641C47.4795%2011.5151%2046.8892%2012.5109%2045.0559%2012.5109C43.1731%2012.5109%2042.6313%2011.45%2042.6313%209.26038L42.6313%200.246216L38.2007%200.246216L38.2007%209.45483C38.1973%2013.7896%2040.6833%2016%2045.0571%2016C49.321%2016%2051.9607%2013.8966%2051.9607%209.39087L51.9595%209.39087ZM67.135%2015.7391L67.135%2012.2942L61.291%2012.2942L61.291%200.244995L56.8328%200.244995L56.8328%2015.7343L67.135%2015.7391ZM77.7688%203.84375L79.4585%209.80066L76.061%209.80066L77.7688%203.84375ZM70.2366%2015.7404L74.3728%2015.7404L75.1946%2012.8591L80.324%2012.8591L81.1458%2015.7391L85.8418%2015.7391L80.9297%200.254761L75.1946%200.254761L70.2366%2015.7416L70.2366%2015.7404ZM93.8218%2015.7404L93.8218%209.2616L98.28%2015.7404L103.408%2015.7404L97.4448%207.44006L103.114%200.246216L98.478%200.246216L93.8242%206.37915L93.8242%200.246216L89.3684%200.246216L89.3684%2015.7343L93.8206%2015.7404L93.8218%2015.7404ZM121.561%207.98401L121.561%207.81055C121.561%202.99817%20118.084%200.029541%20113.364%200.029541C112.305%20-0.0355225%20111.244%200.121338%20110.247%200.490234C109.249%200.859253%20108.337%201.4325%20107.565%202.1748C106.799%202.91199%20106.191%203.80359%20105.781%204.79321C105.372%205.78271%20105.168%206.84851%20105.185%207.92249L105.185%208.09485C105.187%2012.7484%20108.302%2016%20113.302%2016C118.296%2016.0012%20121.561%2012.7509%20121.561%207.98401ZM109.811%208.07019L109.811%207.89539C109.811%205.07825%20111.173%203.49792%20113.355%203.49792C115.536%203.49792%20116.928%205.12256%20116.928%207.87573L116.928%208.0481C116.941%2010.8209%20115.575%2012.5109%20113.388%2012.5109C111.24%2012.5109%20109.81%2010.8862%20109.81%208.07019L109.811%208.07019ZM128.892%2015.7404L133.925%2015.7404L138.996%200.25354L134.842%200.25354L131.678%2011.1238L128.541%200.25354L123.77%200.25354L128.892%2015.7404Z'%20fill='%23FFFFFF'%20fill-opacity='1.000000'%20fill-rule='nonzero'/%3e%3c/g%3e%3c/svg%3e" alt="Фамилия Чулаков">
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>  
+
+
+
+    
   </body>
 </html>
