@@ -15,7 +15,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <img src={defautImage} alt="cat" />
+      <img src={defautImage} className="img-cat" alt="cat" />
       <h1>Vite + GH-Pages</h1>
     </>
   )
