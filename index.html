@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./src/style/style.scss">
     <link rel="shortcut icon" href="/src/assets/img/lofofav32x32.png" type="image/x-icon">
     <title>Tele2 - это ваша выгода</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/inputmask.min.js"></script>
   </head>
   <body>
     <div class="background-color-modal"></div>
@@ -127,9 +128,9 @@
             <h2 class="number_text_title_mobile">Оставьте номер<br> и<span class="number_span_blue"> 1 ТБ — ваш</span></h2>
             <h2 class="number_text_title_desctop">Несколько шагов<br><span class="number_span_blue">и 1 ТБ — ваш</span></h2>
             <form class="form_number_desctop">
-                <label class="number_text_tel">
+                <label class="number_text_tel" for="phone">
                     <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
-                    <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+                    <input class="number_text_tel_num" id="phone" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
                 </label>
                 <p>               
                     <input class="number_text_data_box" type="checkbox" id="agree-des">
@@ -155,9 +156,9 @@
             </div>
         </aside>
         <form class="form_number_mobile">
-            <label class="number_text_tel">
+            <label class="number_text_tel" for="phonem">
                 <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
-                <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+                <input class="number_text_tel_num" id="phonem" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
             </label>
             <p>               
                 <input class="number_text_data_box" type="checkbox" id="agree-mob">
@@ -235,6 +236,8 @@
 
 
     
-    <script type="module" src="./src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js">
+      
+    </script>
   </body>
 </html>
