@@ -1,0 +1,55 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$textgrey: grey;
+
+.city-desctop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 144px;
+    color: $osnovatext;
+    z-index: 10;
+    background-color: $backgroundcolor;
+    visibility: hidden;
+    left: 50%;
+    margin-left: -720px;
+    padding-left: 30px;
+}
+.visible{
+    visibility: visible;
+    
+} 
+.h3-des {
+    font-family: 'Tele2 DisplaySerif';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 112px;
+    padding-bottom: 64px;
+}
+
+.city {
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+    padding-left: 112px;
+    padding-bottom: 24px;
+    width: 160px;
+    &:hover{
+        color: $spantext;
+        cursor: pointer;
+    }
+    
+    
+}
+.city-mobile{
+    display: none;
+}
+

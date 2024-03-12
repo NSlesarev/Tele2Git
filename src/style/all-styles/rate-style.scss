@@ -1,0 +1,148 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$colorgrey: grey;
+.rate {
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.rate-content {
+    display: flex;
+    flex-direction: row;
+    
+}
+.rate-content__text {
+    margin-left: 162px;
+    margin-top: 200px;
+}
+.rate-content__text__title {
+    color: $osnovatext;
+    font-family: 'Tele2 DisplaySerif';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    width: 447px;
+    
+}
+.rate-content__text__opisanie__desctop {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 513px;
+    margin-top: 30px;
+}
+.rate-content__text__opisanie__mobile {
+    display: none;
+    
+}
+.rate-content__text__button_desctop {
+    color: $backgroundcolor;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-radius: 48px;
+    padding: 11px 40px;
+    margin-top: 48px;
+}
+.button__site__desctop{
+    text-decoration: none;
+    color: $backgroundcolor;
+    &:visited {
+        color: $backgroundcolor;
+    }
+    &:hover {
+        color: $spantext;
+    }
+}
+
+.rate-content_img {
+    margin-top: 162px;
+    margin-right: 288px;
+    margin-left: 118px;
+}
+.rate-content_img_img {
+    
+}
+.rate-content__text__button_mobile {
+    display: none;
+}
+@media(max-width: 1100px){
+    .rate {
+        max-width: 320px;
+    }
+    .rate-content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .rate-content__text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 72px;
+        margin-left: 16px;
+    }
+    .rate-content__text__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        width: 268px;
+    }
+    .rate-content__text__opisanie__desctop {
+        display: none;
+    }
+    .rate-content__text__opisanie__mobile {
+        color: $osnovatext;
+        display: block;
+        font-family: 'Tele2 Text';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        width: 288px;
+        margin-top: 16px;
+    }
+    .rate-content__text__button_desctop {
+        display: none;
+    }
+    .rate-content_img {
+        display: block;
+        margin: auto;
+    }
+    .rate-content_img_img{
+        width: 230px;
+        height: 230px;
+        margin-top: 40px;
+    }
+    .rate-content__text__button_mobile {
+        color: $backgroundcolor;
+        font-family: 'Tele2 DisplaySerif';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0%;
+        display: block;
+        border-radius: 48px;
+        padding: 11px 40px 11px 40px;
+        margin: auto;
+        margin-top: 48px;
+    }
+    .button__site__mobile{
+        text-decoration: none;
+        color: $backgroundcolor;
+        &:visited{
+            color: $backgroundcolor;
+        }
+        &:hover{
+            color: $spantext;
+        }
+    }
+}

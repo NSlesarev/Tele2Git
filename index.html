@@ -2,12 +2,244 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/img/lofofav32x32.png" />
+    <meta property="og:title" content="Tele2 'Балдежный'">
+    <meta property="og:description" content="Акционная информация продукта Tele2">
+    <meta property="og:image" content="https://www.connect-wit.ru/wp-content/uploads/2021/10/tele2.jpg">
+    <meta property="og:url" content="https://nslesarev.github.io/Tele2Git/">
+    <meta property="og:type" content="Вебсайт">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <link rel="stylesheet" href="./src/style/style.scss">
+    <link rel="shortcut icon" href="/src/assets/img/lofofav32x32.png" type="image/x-icon">
+    <title>Tele2 - это ваша выгода</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="background-color-modal"></div>
+    <header class="header">
+        <a href="/" class="header_logo">
+            <img src="/src/assets/img/logooo.svg" alt="лого">
+        </a>
+        <button class="header_city">
+            <img class="header_city_icon" src="/src/assets/img/Icons_Location.png" alt="локация">
+            <p class="header_city_city">Санкт-Петербург</p>
+        
+            <div class="header-planka">
+
+                <div class="header-planka__container">
+                        <img class="header-planka__container__img" src="/src/assets/img/strel.svg" alt="">
+
+                        <p class="header-planka__container__title">Ваш регион Санкт-Петербург?<span id="currentCity"></span></p>
+
+                    <div class="header-planka__options">
+                        
+                        <p class="header-planka__options__yes">Да, верно</p>
+                        <p class="header-planka__options__change">Изменить регион</p>
+                        
+                    </div>
+                </div>
+            </div>
+          </button>
+    </header>
+    <section class="city-desctop">
+        <h3 class="h3-des">Выберите город</h3>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Воронеж</td>
+                <td class="city">Москва</td>
+                <td class="city">Ростов-на-Дону</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Иркутск</td>
+                <td class="city">Н.Новгород</td>
+                <td class="city">Санкт-Петербург</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Кемерово</td>
+                <td class="city">Новосибирск</td>
+                <td class="city">Челябинск</td>
+            </tr>
+        </table>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Красноярск</td>
+                <td class="city">Пермь</td>
+            </tr>
+        </table>
+    </section>
+    <section class="city-mobile">
+        <h3 class="h3-mob">Выберите город</h3>
+        <table class="table-city">
+            <tr class="table-row">
+                <td class="city">Воронеж</td>
+                <td class="city">Новосибирск</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Иркутск</td>
+                <td class="city">Пермь</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Кемерово</td>
+                <td class="city">Санкт-Петербург</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Красноярск</td>
+                <td class="city">Челябинск</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Москва</td>
+                <td class="city">Ростов-на-Дону</td>
+            </tr>
+            <tr class="table-row">
+                <td class="city">Н.Новгород</td>
+            </tr>
+        </table>
+    </section>
+    <section class="promo">
+        <main class="promo_text">
+            <p class="promo_text_mini">Акция продлится с 1 по 20 сентября</p>
+            <h1 class="promo_text_title">это ваша <br><span class="promo_text_title_span_color">выгода!</span></h1>
+            <p class="promo_text_opisanie">Тариф «Мой онлайн+» и 1 ТБ трафика<br> в подарок для новых абонентов</p>
+            <button class="promo_buttom">Принять участие</button>
+        </main>
+        <img class="promo_img" src="/src/assets/img/Boss12.png" alt="Дед с интернетом">
+    </section>
+    <section class="presents">
+        <main class="presents_text">
+            <h2 class="presents_title">Один терабайт — много любимых развлечений</h2>
+            <p class="presents_opisanie">Подарок получают только новые абоненты при подключении услуг Tele2 <br> 
+                с тарифом «Мой онлайн+». Трафик расходуется в течение года. </p>
+        </main>
+        <div class="present_bonus">
+            <div class="presents_bonus_one1">
+                <img class="presents_img" src="/src/assets/img/11.svg" alt="кружок плей">
+                <p class="presents_bonus_one_text">Около 500 часов видео</p>
+            </div>
+            <div class="presents_bonus_one2">
+                <img class="presents_img" src="/src/assets/img/2.png" alt="кружок плей">
+                <p class="presents_bonus_one_text">Примерно 200 000 песен</p>
+            </div>
+            <div class="presents_bonus_one3">
+                <img class="presents_img" src="/src/assets/img/3.png" alt="кружок плей">
+                <p class="presents_bonus_one_text">Порядка 300 000 фото</p>
+            </div>
+        </div>      
+    </section>
+    <section class="number">
+        <main class="number_text">
+            <h2 class="number_text_title_mobile">Оставьте номер<br> и<span class="number_span_blue"> 1 ТБ — ваш</span></h2>
+            <h2 class="number_text_title_desctop">Несколько шагов<br><span class="number_span_blue">и 1 ТБ — ваш</span></h2>
+            <form class="form_number_desctop">
+                <label class="number_text_tel">
+                    <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
+                    <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+                </label>
+                <p>               
+                    <input class="number_text_data_box" type="checkbox" id="agree-des">
+                    <label class="number_text_data" for="agree-des">
+                        <p class="number_text_data_data">Даю согласие на обработку персональных данных. <a class="number_text_data_link1" href="/"> Условия соглашения</a>.</p></label> 
+                </p> 
+                <input class="number_text_button" type="submit" value="Выслать промокод"></input>
+            </form>
+        </main>
+        <aside class="number_rules">
+            <div class="number_rules_2">
+                <img class="number_rules_img" src="/src/assets/img/111.svg" alt="кружок 1">
+                <p class="number_rules_1_text">Ведите свой номер телефона, затем дождитесь<br> смс с промокодом для получения Тб</p>
+            </div>
+            <div class="number_rules_2">
+                <img class="number_rules_img" src="/src/assets/img/222.svg" alt="кружок 2">
+                <p class="number_rules_2_text">Перейдите на <a class="number_rules_2_text_site" href="/">сайт Tele2</a> и активируйте промокод при подключении на тариф «Мой Онлайн+»
+                </p>
+            </div>
+            <div class="number_rules_2">
+                <img class="number_rules_img" src="/src/assets/img/333.svg" alt="кружок 3">
+                <p class="number_rules_3_text">Используйте свой подарочный ТБ от Tele2 <br> в течение всего года</p>
+            </div>
+        </aside>
+        <form class="form_number_mobile">
+            <label class="number_text_tel">
+                <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
+                <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+            </label>
+            <p>               
+                <input class="number_text_data_box" type="checkbox" id="agree-mob">
+                <label class="number_text_data" for="agree-mob">
+                    <p class="number_text_data_data">Даю согласие на обработку персональных данных. <a class="number_text_data_link1" href="/"> Условия соглашения</a>.</p></label> 
+            </p> 
+            <input class="number_text_button" type="submit" value="Выслать промокод"></input>
+        </form>
+    </section>
+    <section class="rate">
+        <div class="rate-content">
+            <div class="rate-content__text">
+                <div class="rate-content__text__title">Заходите на сайт Tele2</div>
+                <div class="rate-content__text__opisanie__desctop">Перейдите в магазин, оформите тариф «Мой онлайн+»<br> и на страничке активации введите ваш промокод. Готово! </div>
+                <div class="rate-content__text__opisanie__mobile">Перейдите в магазин на страничку активации, введите ваш промокод. Готово! Теперь вы получите 1 ТБ на ваш телефон при подключении тарифа «Мой онлайн+».</div>
+                <button class="rate-content__text__button_desctop">
+                    <a class="button__site__desctop" href="https://rostov.tele2.ru/" target="_blank">Оформить тариф</a>
+                </button>
+            </div>
+            <div class="rate-content_img">
+                <img class="rate-content_img_img" src="/src/assets/img/telefon.png" alt="картинка с телефоном и фоном круглым">
+            </div>
+            <button class="rate-content__text__button_mobile">
+                <a class="button__site__mobile" href="https://rostov.tele2.ru/">Оформить тариф</a>
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <div class="icon-media media-1">
+                    <a class="icon-media__link" href="">
+                        <img class="icon-media__img img1" src="./src/assets/img/tvit.svg" alt="Твиттер"></a>
+                </div>
+                <div class="icon-media media-2">
+                    <a class="icon-media__link" href="">
+                        <img class="icon-media__img img2" src="./src/assets/img/vk.svg" alt="ВКонтакте"></a>
+                </div>
+                <div class="icon-media media-3">
+                    <a class="icon-media__link" href="">
+                        <img class="icon-media__img img3" src="./src/assets/img/fb.svg" alt="Фейсбук"></a>
+                </div>
+            </div>
+            <div class="footer-promotion">
+                <div class="footer-promotion__text">Полные условия акции</div>
+                <div class="footer-promotion__img">
+                    <img class="footer-promotion__img__img" src="./src/assets/img/16.svg" alt="16+">
+                </div>
+            </div>
+        </div>
+        <hr class="footer-poloska">
+        <div class="footer-info">
+            <div class="footer-info__logo">
+                <a class="footer-info__logo__img" href="">
+                    <img class="footer-info__logo__img__img" src="./src/assets/img/logooo.svg" alt="лого теле2">
+                </a>
+                <p class="footer-info__text">© Tele2 Россия, 2021</p>
+            </div>
+                
+            <div class="footer-oleg">
+                <div class="footer-oleg__studio">
+                    <p class="footer-oleg__studio__text">Сделано в Студии Олега Чулакова</p>
+                </div>
+                <div class="footer-oleg__logo">
+                    <img class="footer-oleg__logo__img" src="./src/assets/img/chul.svg" alt="Фамилия Чулаков">
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>  
+
+
+
+    
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,141 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$colorgrey: grey;
+body{
+    background-color: $backgroundcolor;
+}
+.promo {
+    display: flex;
+    background-color: $backgroundcolor;
+    color: $osnovatext;
+    max-width: 1440px;
+    margin: auto;
+}
+.promo_text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 162px;
+}
+.promo_text_mini {
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 83px;
+    margin-bottom: 48px;
+}
+.promo_text_title {
+    font-family: 'Standard CT Stencil';
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    
+}
+.promo_text_title_span_color {
+    color: $spantext;
+}
+.promo_text_opisanie {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 56px;
+}
+.promo_buttom {
+    color: $backgroundcolor;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 30px;
+    width: 209px;
+    height: 60px;
+    cursor: pointer;
+    &:hover{
+        color: $spantext;
+    }
+}
+.promo_img {
+    margin-left: 55px;
+    margin-top: 56px;
+}
+@media(max-width: 1100px){
+    .promo_text{
+        
+        margin-left: 16px;
+    }
+    .promo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 320px;
+        
+    }
+    .promo_text_mini{
+        color: $osnovatext;
+        font-family: 'Tele2 Text';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        margin-top: 24px;
+        margin-bottom: 40px;
+        margin-left: 16px;
+        
+        
+    }
+    .promo_text_title{
+        font-family: 'Standard CT Stencil';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0%;
+        
+        text-transform: uppercase;
+        margin-left: 16px;
+        width: 285px;
+    }
+    .promo_text_opisanie{
+        font-family: 'Tele2 Text';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        br{
+            display: none;
+        }
+        
+        margin-left: 16px;
+        width: 288px;
+        margin-bottom: 40px;
+    }
+    .promo_buttom{
+        width: 201px;
+        height: 48px;
+        margin-left: 16px;
+        margin-bottom: 48px;
+    }
+    .promo_img{
+        width: 316px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 0;  
+    }
+
+}

@@ -1,0 +1,143 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$colorgrey: grey;
+.presents {
+    color: $osnovatext;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+    
+    
+}
+.presents_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 166px; 
+}
+.presents_title {
+    color: $osnovatext;
+    font-family: 'Tele2 DisplaySerif';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    width: 936px;
+    margin-top: 148px;
+}
+.presents_opisanie {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-top: 24px;
+    width: 665px;
+    
+    }
+.present_bonus{
+    display: flex;
+    flex-direction: row;
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-left: 166px;
+}
+.presents_bonus_one1 {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    
+}
+.presents_bonus_one2 {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 56px;
+    
+}
+.presents_bonus_one3 {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    margin-left: 56px;
+    
+}
+.presents_bonus_one_text {
+    margin-left: 16px;
+    
+}
+.presents_img{
+    width: 72px;
+    height: 72px;
+    
+}
+@media(max-width: 1100px){
+    .presents {
+        max-width: 320px;
+    }
+    .presents_text {
+        margin: auto;
+    }
+    .presents_title {
+        color: $osnovatext;
+        font-family: 'Tele2 DisplaySerif';
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        width: 288px;
+        margin-top: 72px;
+    }
+    .presents_opisanie {
+        color: $osnovatext;
+        font-family: 'Tele2 Text';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 260px;
+        margin-top: 16px;
+        br{
+            display: none;
+        }
+    }
+    .present_bonus {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+    .presents_bonus_one1 {
+        margin-top: 40px;
+    }
+    .presents_img {
+        width: 56px;
+        height: 56px;
+    }
+    .presents_bonus_one_text {
+        font-family: 'Tele2 Text';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .presents_bonus_one2 {
+        margin-left: 0;
+        margin-top: 32px;
+
+        
+    }
+    .presents_bonus_one3 {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+
+}

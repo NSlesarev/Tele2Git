@@ -1,0 +1,313 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$colorgrey: grey;
+
+.number {
+    color: $osnovatext;
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 148px;
+}
+.number_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 162px;
+    
+}
+.number_text_title_mobile{
+    display: none;
+}
+.number_text_title_desctop {
+    color: $osnovatext;
+    font-family: Tele2 DisplaySerif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 339px;
+    
+}
+.number_span_blue {
+    color: $spantext;
+
+}
+.number_text_tel_opisanie {
+    margin-top: 64px;
+    color: rgb(143, 147, 153);
+    font-family: 'Tele2 Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.number_text_tel_num {
+    margin-top: 3px;
+    display: block;
+    width: 348px;
+    height: 22px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(143, 147, 153);
+    outline: none;
+    color: $osnovatext;
+    cursor: pointer;
+}
+.number_text_tel::before{
+    content: "";
+    color: $osnovatext;
+}
+.number_text_tel_num::placeholder{
+    color: $spantext;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+#agree-des{
+    display: none;
+    
+}
+.number_text_data {
+    display: flex;
+    margin-top: 30px;
+    width: 24px;
+    cursor: pointer;
+}
+#agree-des:checked + .number_text_data::before {
+    background-image: url(/src/assets/img/galka.svg);
+
+    
+}
+.number_text_data::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: $backgroundcolor;
+    border: 2px $osnovatext solid;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+    
+    
+}
+.form_number_mobile{
+    display: none;
+}
+.number_text_data_data {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0%;
+    margin-left: 30px;
+    margin-top: -23px;
+    margin-bottom: 32px;
+    width: 316px;
+    cursor: default;
+    
+}
+.number_text_data_link1{
+    color: $osnovatext;
+}
+.number_text_button {
+    color: $backgroundcolor;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-radius: 48px;
+    padding: 11px 40px;
+    cursor: pointer;
+    &:hover{
+        color: $spantext;
+    }
+}
+.number_rules {
+    margin-left: 141px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 132px;
+}
+.number_rules_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.number_rules_1_text {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 24px;
+    
+    
+    
+    
+}
+.number_rules_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.number_rules_2_text {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 24px;
+    width: 494px;
+    .number_rules_2_text_site{
+        color: $osnovatext;
+    }
+}
+
+.number_rules_3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 32px;
+}
+.number_rules_3_text {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 24px;
+    
+}
+@media(max-width: 1100px){
+    #agree-mob{
+        display: none;
+    }
+    
+    .form_number_desctop{
+        display: none;
+    }
+    .form_number_mobile{
+        display: block;
+        margin-left: 16px;
+    }
+    .number {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        margin-top: 0;
+        padding-top: 72px;
+    }
+    .number_text {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        margin: auto;
+        margin-left: 16px;
+
+        
+    }
+    .number_text_title_mobile{
+        display: block;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        width: 196px;
+    }
+    .number_text_title_desctop {
+        display: none;
+    }
+    .number_text_tel_num {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 138%;
+        letter-spacing: 0%;
+        width: 288px;
+    }
+    #agree-mob:checked + .number_text_data::before {
+        background-image: url(/src/assets/img/galka.svg);
+    }
+    .number_text_data_data {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 138%;
+        letter-spacing: 0%;
+        width: 256px;
+    }
+    .number_text_button {
+        width: 218px;
+        margin-left: 30px;
+        padding: 11px 40px 11px 40px;
+        color: $backgroundcolor;
+        font-family: 'Tele2 Text';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 48px;
+        padding: 11px 40px;
+
+    }
+    .number_rules {
+        margin-left: 16px;
+    }
+    .number_rules_1 {
+        display: flex;
+        
+        
+    }
+    .number_rules_img {
+        width: 56px;
+        height: 56px;
+
+    }
+    .number_rules_1_text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin: 0;
+        
+    }
+    .number_rules_2 {
+        flex-direction: column;
+        align-items: start;
+        
+
+    }
+    .number_rules_2_text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        width: 272px;
+        margin: 0;
+        
+    }
+    .number_rules_3_text {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        margin: 0;
+    }
+     
+}

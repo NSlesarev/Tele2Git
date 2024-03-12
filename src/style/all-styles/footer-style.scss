@@ -1,0 +1,195 @@
+
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$textgrey: grey;
+.footer {
+    max-width: 1440px;
+    margin: auto;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 148px;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 153px;
+    width: 128px;
+    height: 40px;
+}
+
+.icon-media {
+    width: 40px;
+    text-align: center;
+}
+.footer-promotion {
+    display: flex;
+    flex-direction: row;
+    margin-right: 162px;
+    align-items: center;
+
+}
+.footer-promotion__text {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin-right: 12px;
+    width: 125px;
+    
+}
+.footer-poloska {
+    background: $osnovatext;
+    opacity: 0.2;
+    margin-top: 12px;
+    max-width: 1116px;
+}
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    padding-bottom: 40px;
+}
+.footer-info__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 43px;
+    margin-bottom: 47px;
+}
+.footer-info__logo__img__img {
+    margin-left: 162px;
+    width: 79px;
+    height: 30px;
+}
+.footer-info__text {
+    color: $textgrey;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+
+    margin-left: 24px;
+}
+.footer-oleg {
+    display: flex;
+    flex-direction: row;
+    margin-right: 163px;
+    margin-top: 51px;
+    margin-bottom: 47px;
+    
+
+}
+.footer-oleg__studio__text {
+    color: $textgrey;
+    font-family: 'Tele2 Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin-right: 24px;
+}
+@media(max-width: 1100px){
+    .footer{
+        
+    }
+
+    .footer-promotion{
+        margin-right: 0;
+    }
+    .footer-promotion__img{
+        margin-right: 10px;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0;
+        padding-top: 72px; 
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+        width: 86px;
+
+    }
+    .media-1{
+        order: 2;
+    }
+    .media-2{
+        order: 3;
+    }
+    .media-3{
+        order: 1;
+    }
+
+    .icon-media {
+        width: 24px;
+        height: 24px;
+    }
+    .icon-media__img {
+        width: 24px;
+        height: 24px;   
+    }
+    .footer-promotion {
+        margin-left: 25px;
+    }
+    .footer-promotion__text {
+        color: $osnovatext;
+        font-family: 'Tele2 Text';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+    .footer-promotion__img__img {
+        width: 32px;
+        height: 32px;
+    }
+    .footer-poloska {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        justify-content:space-between;
+        margin-top: 20px;
+    }
+    .footer-info__logo {
+        margin-top: 27px;
+    }
+    .footer-info__logo__img__img {
+        width: 70px;
+        height: 30px;
+        margin-left: 16px;
+        
+    }
+    .footer-info__text {
+        width: 144px;
+        margin-right: 49px;
+        margin-left: 32px;
+        font-family: 'Tele2 Text';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        margin-left: 69px;
+
+
+    }
+    .footer-oleg {
+        display: none;
+    }
+}
