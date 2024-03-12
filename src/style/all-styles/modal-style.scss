@@ -1,0 +1,162 @@
+//Переменные для цветов
+$backgroundcolor: #1F2229;
+$osnovatext: rgb(255, 255, 255);
+$spantext: rgb(72, 204, 253);
+$textgrey: grey;
+
+
+.mod{
+    position: absolute;
+    color: $osnovatext;
+    z-index: 10;
+    background-color: $backgroundcolor;
+    width: 500px;
+    height: 300px;
+    border: 1px solid $spantext;
+    top: 250px;
+    left: 25%;
+    visibility: hidden;
+
+}
+.visible {
+    visibility: visible;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    
+}
+.modal-tel::before {
+        content: "";
+        color: $osnovatext;
+}
+.modal-tel__opisanie {
+    margin-top: 64px;
+    color: rgb(143, 147, 153);
+    font-family: 'Tele2 Text';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 68px;
+}
+.modal-tel__num {
+    margin-top: 3px;
+    display: block;
+    width: 348px;
+    height: 22px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(143, 147, 153);
+    outline: none;
+    color: $osnovatext;
+    cursor: pointer;
+    margin-left: 68px;
+
+}
+.modal-tel__num::placeholder{
+    color: $spantext;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.modal-box {
+}
+#agree {
+    display: none;
+}
+.modal-box__data {
+    display: flex;
+    width: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 70px;
+    
+}
+#agree:checked + .modal-box__data::before {
+    background-image: url(/src/assets/img/galka.svg);
+
+    
+}
+
+.modal-box__data::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: $backgroundcolor;
+    border: 2px $osnovatext solid;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+
+    
+    
+}
+
+.modal-box__data__data {
+    color: $osnovatext;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 138%;
+    letter-spacing: 0%;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    width: 316px;
+    cursor: default;
+}
+.number_text_data_link1 {
+    color: $osnovatext;
+}
+.modal-button {
+    color: $backgroundcolor;
+    font-family: 'Tele2 Text';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-radius: 48px;
+    width: 218px;
+    padding: 10px 30px;
+    margin-left: 130px;
+    cursor: pointer;
+    &:hover{
+        color: $spantext;
+    }
+}
+
+@media(max-width: 1100px){
+    .mod{
+        display: none;
+        // position: absolute;
+        // color: $osnovatext;
+        // z-index: 10;
+        // background-color: $backgroundcolor;
+        // width: 300px;
+        // height: 450px;
+        // border: 1px solid $spantext;
+        // top: 250px;
+        // left: 25%;
+        
+    
+    }
+    // .modal-box__data__data{
+    //     width: 100px;
+    // }
+
+    // .modal-button{
+    //     margin-left: 40px;
+    // } 
+
+    // .modal-tel__num {
+    //     width: 200px;
+    // }
+    // .modal-tel {
+    //     margin-right: 10px;
+    // }
+}

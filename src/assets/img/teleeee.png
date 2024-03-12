@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>
+        Tele2 может подключить две платные услуги. Как проверить, есть ли они у вас?    </title>
+
+    <meta name="theme-color" content="#c9e0e04d">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="/local/templates/iguides-2022/img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="/local/templates/iguides-2022/img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="/local/templates/iguides-2022/img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/local/templates/iguides-2022/img/favicons/apple-touch-icon-152x152.png">
+
+    <link rel="stylesheet" href="/local/templates/iguides-2022/styles/main.min.css">
+    <link rel="stylesheet" href="/local/templates/iguides-2022/styles/fly.css?v=0.3">
+
+    <script src="/local/templates/iguides-2022/js/sw-install.js"></script>
+
+    <script>
+        window.templatePath = '/local/templates/iguides-2022';
+        if (/iPad/.test(navigator.userAgent)) {
+            document.head.querySelector('[name="viewport"]').content = `width=1270, initial-scale=${window.screen.width / 1270}, user-scalable=no`
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            window['ajaxLoadMore'] = function (btn, data, ajaxUrl = null) {
+
+                let actionUrl = ajaxUrl || window.location.pathname;
+                let u = new URL(window.location.href);
+
+                for(let k in data) {
+
+                    if(k.includes('PAGEN_') && (data['HISTORY_DISABLED'] == undefined || data['HISTORY_DISABLED'] != 1)) {
+
+                        u.searchParams.set(k, data[ k ]);
+                    }
+                }
+                $(btn.querySelector('.i-btn-loadmore')).attr('disabled', '');
+                BX.ajax({
+                    url: actionUrl,
+                    data: data,
+                    method: 'POST',
+                    cache: false,
+                    onsuccess: (html) => {
+                        $(btn).after(html);
+                        $(btn).remove();
+                        // history.pushState({},'', u.toString());
+                    },
+                    onfailure: (e) => {
+                        console.log(e);
+                        $(btn).removeAttr('disabled');
+                    }
+                });
+            }
+        });
+
+    </script>
+
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <script src="/local/templates/iguides-2022/js/jquery.min.js?v=0.3"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Tele2" />
+<meta name="description" content="Сотовые операторы по-прежнему грешат подключением услуг и подписок без прямого желания абонента, и Tele2 не исключение. " />
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','storageBlocks':[],'dynamicBlocks':{'fullscreen_mobile':'d41d8cd98f00','desktop-auth-form':'d41d8cd98f00','mobile-auth-form':'d41d8cd98f00','banner-top':'d41d8cd98f00','y0XwfU':'d41d8cd98f00','btnEdit.default':'0cf31b2c283c','article_detail':'d41d8cd98f00','oPzmHO':'9dc4692cab3a','right_detail':'d41d8cd98f00','sender-subscribebox':'834d4afcc6b3','sender-subscribe.default':'e63dab7d36ba','before_comments':'d41d8cd98f00','jxX10R':'a83a14642864','right_comments':'d41d8cd98f00','after_comments':'d41d8cd98f00','after_read_more':'d41d8cd98f00','kPIpd9':'d41d8cd98f00','pageJSParams':'2fb135bd2efa'},'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'0','version':'2'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("X-Bitrix-Composite", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready && b){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}w.frameRequestFail = f;return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();var p = w.performance;if (p && p.addEventListener && p.getEntries && p.setResourceTimingBufferSize){var e = 'resourcetimingbufferfull';var h = function() {if (w.BX && w.BX.frameCache && w.BX.frameCache.frameDataInserted){p.removeEventListener(e, h);}else {p.setResourceTimingBufferSize(p.getEntries().length + 50);}};p.addEventListener(e, h);}})(window, document);</script>
+
+
+<link href="/bitrix/js/socialservices/css/ss.min.css?16466523794686" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/burlakastudio.realcommenter/css/talk_form.min.css?1646657377261" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/iguides-2022/page_ee2b8a15ef1ff790125e0ba1bf5f1a71/page_ee2b8a15ef1ff790125e0ba1bf5f1a71_v1.css?166988614312982" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/iguides-2022/default_db430162f65ebe0466d315f7ff1f1bdd/default_db430162f65ebe0466d315f7ff1f1bdd_v1.css?1669886143281" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/iguides-2022/template_c0aba7fb1877cd0c92af819be50afe5a/template_c0aba7fb1877cd0c92af819be50afe5a_v1.css?170973505132014" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1646653032262092"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'0','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'FORM_REQUIRED_INPUTS_MSG':'Заполните ещё ','FORM_REQUIRED_INPUTS_CASE_1':' поле','FORM_REQUIRED_INPUTS_CASE_2':' поля','FORM_REQUIRED_INPUTS_CASE_3':' полей','agree_to_del_uploaded_file':'Да','itape_filter_fired_on':'Недопустимо использовать: ','itape_filter_by_tag_fired_on':'Запрещено использовать тег: ','custom_gallery_image_data_attribute':'data-image-id','drag_n_drop.js':'/bitrix/js/burlakastudio.realcommenter/drag_n_drop.min.js?1646657377','talk_gallery.js':'/bitrix/js/burlakastudio.realcommenter/talk_gallery.min.js?1646657377','browser_hash.js':'/bitrix/js/burlakastudio.realcommenter/browser_hash.min.js?1646657384','drag_and_fire.js':'/bitrix/js/burlakastudio.realcommenter/drag_and_fire.min.js?1646657377'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'IGUIDES_RU','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/'});</script>
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/iguides-2022/kernel_main/kernel_main_v1.js?1669934182165479"></script>
+<script type="text/javascript"  src="/bitrix/cache/js/s1/iguides-2022/kernel_main_polyfill_customevent/kernel_main_polyfill_customevent_v1.js?16698861431051"></script>
+<script type="text/javascript" src="/bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min.js?164701694660992"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.min.js?14325676507365"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?164665252411082"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.min.js?164665256376433"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/model.min.js?164665256314190"></script>
+<script type="text/javascript" src="/bitrix/js/rest/client/rest.client.min.js?16466526169240"></script>
+<script type="text/javascript" src="/bitrix/js/pull/client/pull.client.min.js?164665293344687"></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.2.1/firebase-messaging.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
+<script type="text/javascript" src="/bitrix/js/socialservices/ss.js?14024124591423"></script>
+<script type="text/javascript" src="/bitrix/js/burlakastudio.realcommenter/talk_tree.min.js?164665738419832"></script>
+<script type="text/javascript" src="/bitrix/js/burlakastudio.realcommenter/talk_form.min.js?164665738016620"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/pageobject/pageobject.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/js/main/core/core_dd.js','/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.js','/local/templates/iguides-2022/components/bitrix/news.detail/.default/script.js','/local/templates/iguides-2022/js/article.min.js','/local/components/iguides/rating.vote/rating.js','/local/templates/iguides-2022/components/bitrix/system.pagenavigation/load_more/script.js','/local/components/iguides/notifications.subscribe/templates/.default/script.js']);</script>
+<script type="text/javascript">BX.setCSSList(['/local/templates/iguides-2022/components/iguides/rating.vote/standart/style.css','/local/templates/iguides-2022/components/bitrix/sender.subscribe/box/style.css','/local/templates/iguides-2022/components/bitrix/sender.subscribe/.default/style.css','/local/templates/iguides-2022/components/realcommenter_2.0/tape.show.tree/comments/style.css','/local/templates/iguides-2022/styles.css','/local/templates/iguides-2022/template_styles.css','/local/templates/iguides-2022/components/iguides/auth.form/popup_auth/style.css']);</script>
+<link rel="manifest" href="/local/components/iguides/notifications.subscribe/manifest.json">
+<link rel="canonical" href="https://www.iguides.ru/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/" />
+<meta property="og:title" content="Tele2 может подключить две платные услуги. Как проверить, есть ли они у вас?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.iguides.ru/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/" />
+<meta property="og:image" content="https://www.iguides.ru/upload/iblock/017/xmabcn4he59yji9se0t752vjvk84rfk1.png" />
+<meta property="og:description" content="Сотовые операторы по-прежнему грешат подключением услуг и подписок без прямого желания абонента, и Tele2 не исключение. " />
+<meta property="og:site_name" content="https://iguides.ru/" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="mediator_author" content="(alexkeuano) Александр Кузнецов" />
+<meta name="mediator_theme" content="Гайды" />
+<meta name="mediator_published_time" content="2023-12-14T19:20:00+0300" />
+<meta name="mediator" content="524912" />
+
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/iguides-2022/template_88a7f4e2f26bd85f369970a074fcc84b/template_88a7f4e2f26bd85f369970a074fcc84b_v1.js?16698861436150"></script>
+<script type="text/javascript"  src="/bitrix/cache/js/s1/iguides-2022/page_4f9f119cba1eef4420002a31f2bf7e9d/page_4f9f119cba1eef4420002a31f2bf7e9d_v1.js?1669886143181010"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "4def070d0ce7f7a556638b98fda90ab4"]); _ba.push(["host", "www.iguides.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+
+    
+        
+    
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+    <script async src="https://yastatic.net/pcode/adfox/header-bidding.js"></script>
+    <script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(() => {
+            window['ajaxLogin'] = function(submit) {
+                let form = submit.closest('#authForm');
+                let errText = form.querySelector('.errortext');
+                if (submit.hasAttribute('disabled')) return;
+                submit.setAttribute('disabled', '');
+                errText.style.display = 'none';
+                $.ajax({
+                    type: 'POST',
+                    url: '/local/templates/iguides-2022/ajax/auth.php',
+                    data: $(form).serialize(),
+                    error: function(req, err) {
+                        console.log(req, err);
+                        submit.removeAttribute('disabled');
+                    },
+                    success: function(data) {
+                        data = JSON.parse(data);
+
+                        if (data.status) {
+                            let url = new URL(location.href);
+                            url.search = '?login=yes'
+                            location.href = url;
+                        } else {
+                            errText.innerHTML = data.message;
+                            errText.style.display = 'block';
+                            submit.removeAttribute('disabled');
+                        }
+                    }
+                });
+            };
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <iframe class="relap-runtime-iframe" style="position:absolute;top:-9999px;left:-9999px;visibility:hidden;" srcdoc="<script src='https://relap.io/v7/relap.js' data-relap-token='memQ7WntFOkUyczJ'></script>"></iframe>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(5122708, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/5122708" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!--LiveInternet counter-->
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit?r"+
+        escape(document.referrer)+((typeof(screen)=="undefined")?"":
+        ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+        screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+        ";h"+escape(document.title.substring(0,80))+
+        ";"+Math.random();
+    </script>
+    <!--/LiveInternet-->
+
+    <!-- Rating@Mail.ru counter -->
+    <script type="text/javascript">
+        var _tmr = window._tmr || (window._tmr = []);
+        _tmr.push({id: "1722744", type: "pageView", start: (new Date()).getTime()});
+        (function (d, w, id) {
+        if (d.getElementById(id)) return;
+        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+        ts.src = "https://top-fwz1.mail.ru/js/code.js";
+        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+        })(document, window, "topmailru-code");
+    </script>
+    <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=1722744;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+    <!-- //Rating@Mail.ru counter -->
+
+    <!-- Брендирование, начало -->
+        <!-- Брендирование, конец -->
+
+    <div id="bxdynamic_fullscreen_mobile_start" style="display:none"></div><div id="bxdynamic_fullscreen_mobile_end" style="display:none"></div>
+    <script type="text/javascript" src="/local/templates/iguides-2022/js/advert.js"></script>
+    <script>
+        if(!('adblock' in window)){
+            window.adblock = true;
+            ga('send', 'event', 'adblock', 'detected');
+        }
+    </script>
+
+    <script language="JavaScript">
+        var N = 10;
+        var ar_duo1 = Math.floor(Math.random()*N+1);
+    </script>
+
+    
+    <div id="panel"></div>
+
+    <main>
+
+        <script>
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            const systemTheme = localStorage.getItem("systemTheme");
+            const systemThemeChanged = prefersDarkScheme ? systemTheme == 'light' : systemTheme == 'dark';
+
+            if (systemThemeChanged) {
+                localStorage.removeItem('theme');
+            }
+
+            const currentTheme = localStorage.getItem("theme");
+            if (currentTheme == "dark") {
+                document.body.classList.add("dark-theme");
+            } else if (currentTheme == "light") {
+                document.body.classList.remove("dark-theme");
+            }
+            if (!currentTheme && prefersDarkScheme) {
+                document.body.classList.add("dark-theme");
+            }
+
+            localStorage.setItem('systemTheme', prefersDarkScheme ? 'dark' : 'light');
+        </script>
+        <header class="i-header">
+            <div class="container-md i-header-container">
+                <a href="/" class="i-logo"></a>
+
+                
+
+    <ul class="nav i-top-menu mr-auto">
+
+		
+			
+									<li class="nav-item">
+						<a href="/" class="nav-link color-black">Свежее</a>
+					</li>
+				
+			
+					
+			
+				
+			
+					
+			
+				
+			
+					
+			
+				
+			
+					
+			
+				
+			
+					
+			
+				
+					<li class="nav-item dropdown">
+		                <a class="nav-link color-black dropdown-toggle active" data-toggle="dropdown" href="/main/" role="button" aria-haspopup="true" aria-expanded="false">Темы</a>
+		                <div class="dropdown-menu i-dropdown dropdown-menu__left-decor">
+							<a class="dropdown-item " href="/main/reviews/">Обзоры</a><a class="dropdown-item active" href="/main/os/">Гайды</a><a class="dropdown-item " href="/main/games/">Игры</a><a class="dropdown-item " href="/main/recommendation/">Надо брать</a>		                </div>
+		            </li>
+
+				
+			
+					
+			
+									<li class="nav-item">
+						<a href="/blogs/" class="nav-link color-black">Блоги</a>
+					</li>
+				
+			
+					
+			
+									<li class="nav-item">
+						<a href="/qa/" class="nav-link color-black">Вопросы</a>
+					</li>
+				
+			
+							<li class="nav-item">
+			<a href="/search/huawei/" class="nav-link nav-link_huawei color-black">
+				<svg width="156" height="35" viewBox="0 0 156 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M85.1486 11.1829H88.6221V20.8171C88.6221 25.7073 85.9192 28.5122 81.2104 28.5122C76.5506 28.5122 73.8721 25.7561 73.8721 20.9512V11.1951H77.3456V20.8414C77.3456 23.6951 78.7521 25.2195 81.2593 25.2195C83.7666 25.2195 85.1486 23.7317 85.1486 20.9634V11.1829ZM65.5798 18.061H57.7279V11.1829H54.2544V28.2561H57.7279V21.3171H65.5676V28.2561H69.0411V11.1829H65.5676V18.061H65.5798ZM152.563 11.1829V28.2317H155.988V11.1829H152.563ZM138.926 20.9024H145.249V17.7927H138.926V14.2927H148.099V11.1951H135.502V28.2439H148.429V25.1341H138.926V20.9024ZM125.301 22.9146L121.412 11.1707H118.575L114.685 22.9146L110.906 11.1829H107.212L113.181 28.2439H116.055L119.944 17.0366L123.834 28.2439H126.732L132.689 11.1829H129.081L125.301 22.9146ZM101.036 11.2805L108.509 28.2439H104.864L103.323 24.6951H95.4834L95.3733 24.939L93.9301 28.2439H90.3833L97.9295 11.1829H100.963L101.036 11.2805ZM101.868 21.2073L99.3972 15.4878L96.9388 21.2073L96.7676 21.5975H102.027L101.868 21.2073Z" fill="white"/>
+					<path d="M20.0582 26.439C20.1072 26.4024 20.1194 26.3293 20.0949 26.2683C16.7225 19.0406 12.5152 12.2303 7.55868 5.97561C7.55868 5.97561 3.62046 9.70732 3.90176 13.4512C3.96765 14.3144 4.20357 15.1561 4.59601 15.9283C4.98846 16.7004 5.52973 17.3878 6.18886 17.9512C9.62563 21.2927 17.9424 25.5122 19.8748 26.4756C19.9359 26.5 20.0093 26.4878 20.0582 26.439ZM18.774 29.2927C18.7496 29.2195 18.6762 29.1707 18.5906 29.1707L4.74567 29.6463C6.25002 32.3171 8.78173 34.3902 11.4113 33.7561C13.2336 33.3049 17.3431 30.439 18.7007 29.4634C18.8107 29.378 18.774 29.3049 18.774 29.2927ZM18.982 28.061C19.0553 27.9512 18.933 27.8537 18.933 27.8537C12.8545 23.7561 1.06429 17.4634 1.06429 17.4634C0.673496 18.6578 0.564175 19.9259 0.744819 21.1692C0.925463 22.4125 1.39121 23.5975 2.10585 24.6322C2.8205 25.6668 3.7648 26.5232 4.86536 27.1348C5.96592 27.7464 7.19309 28.0967 8.45151 28.1585C8.65943 28.1951 16.6826 28.1585 18.8352 28.1463C18.8964 28.1341 18.9453 28.1098 18.982 28.061ZM19.8993 0.0121951C19.3 0.0609756 17.6733 0.439024 17.6733 0.439024C14.0042 1.37805 13.1358 4.70732 13.1358 4.70732C12.4631 6.79268 13.148 9.09756 13.148 9.09756C14.3711 14.5122 20.3885 23.4268 21.6849 25.2927C21.7705 25.3902 21.8439 25.3537 21.8439 25.3537C21.9173 25.3293 21.9784 25.2683 21.9784 25.1829C23.9842 5.28049 19.8993 0.0121951 19.8993 0.0121951ZM24.4857 25.3293C24.5591 25.3537 24.6447 25.3293 24.6814 25.2561C26.0145 23.3415 31.9952 14.4756 33.2183 9.08537C33.2183 9.08537 33.8787 6.47561 33.2427 4.69512C33.2427 4.69512 32.3377 1.31707 28.6685 0.426829C28.6685 0.426829 27.6167 0.158537 26.4915 0C26.4915 0 22.382 5.26829 24.3878 25.1707C24.3756 25.2439 24.4245 25.3049 24.4857 25.3293ZM27.7635 29.1829C27.7309 29.1895 27.7 29.2026 27.6726 29.2215C27.6453 29.2403 27.6221 29.2646 27.6045 29.2927C27.5922 29.3659 27.6045 29.4268 27.6534 29.4756C28.9743 30.4268 32.9981 33.2317 34.9305 33.7683C34.9305 33.7683 38.5141 34.9878 41.6206 29.6585L27.7635 29.1829ZM45.3142 17.439C45.3142 17.439 33.5485 23.7439 27.4577 27.8415C27.3965 27.8902 27.3599 27.9634 27.3843 28.0366C27.3843 28.0366 27.4455 28.1463 27.5311 28.1463C29.7081 28.1463 37.9515 28.1585 38.1716 28.122C38.9911 28.061 39.7983 27.878 40.5566 27.5732C40.5566 27.5732 43.4919 26.6463 45.0085 23.3171C45.0085 23.3171 46.3661 20.6098 45.3142 17.439ZM26.3447 26.439C26.3936 26.4756 26.467 26.4878 26.5282 26.4512C28.5095 25.4634 36.7651 21.2805 40.1774 17.9512C40.1774 17.9512 42.3422 16.2195 42.4523 13.4268C42.6969 9.56098 38.7954 5.97561 38.7954 5.97561C38.7954 5.97561 31.5794 14.6951 26.2836 26.2195C26.2751 26.2583 26.2762 26.2986 26.2869 26.3368C26.2975 26.3751 26.3174 26.4102 26.3447 26.439Z" fill="#CE0E2D"/>
+				</svg>
+			</a>
+		</li>
+  	</ul>
+
+
+                <div class="i-btn-day-night i-header-container__switch" id="switch">
+                    <label class="i-btn-day-night__label">
+                        <input type="checkbox" id="day-night-switch" />
+                        <span class="mount"></span>
+                        <span class="ball">
+                            <svg>
+                                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#day-night"></use>
+                            </svg>
+                        </span>
+                    </label>
+                </div>
+
+                <div class="huawei-link">
+                    <a href="/search/huawei/" class="nav-link nav-link_huawei color-black">
+                        <svg width="156" height="35" viewBox="0 0 156 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M85.1486 11.1829H88.6221V20.8171C88.6221 25.7073 85.9192 28.5122 81.2104 28.5122C76.5506 28.5122 73.8721 25.7561 73.8721 20.9512V11.1951H77.3456V20.8414C77.3456 23.6951 78.7521 25.2195 81.2593 25.2195C83.7666 25.2195 85.1486 23.7317 85.1486 20.9634V11.1829ZM65.5798 18.061H57.7279V11.1829H54.2544V28.2561H57.7279V21.3171H65.5676V28.2561H69.0411V11.1829H65.5676V18.061H65.5798ZM152.563 11.1829V28.2317H155.988V11.1829H152.563ZM138.926 20.9024H145.249V17.7927H138.926V14.2927H148.099V11.1951H135.502V28.2439H148.429V25.1341H138.926V20.9024ZM125.301 22.9146L121.412 11.1707H118.575L114.685 22.9146L110.906 11.1829H107.212L113.181 28.2439H116.055L119.944 17.0366L123.834 28.2439H126.732L132.689 11.1829H129.081L125.301 22.9146ZM101.036 11.2805L108.509 28.2439H104.864L103.323 24.6951H95.4834L95.3733 24.939L93.9301 28.2439H90.3833L97.9295 11.1829H100.963L101.036 11.2805ZM101.868 21.2073L99.3972 15.4878L96.9388 21.2073L96.7676 21.5975H102.027L101.868 21.2073Z" fill="white"></path>
+                            <path d="M20.0582 26.439C20.1072 26.4024 20.1194 26.3293 20.0949 26.2683C16.7225 19.0406 12.5152 12.2303 7.55868 5.97561C7.55868 5.97561 3.62046 9.70732 3.90176 13.4512C3.96765 14.3144 4.20357 15.1561 4.59601 15.9283C4.98846 16.7004 5.52973 17.3878 6.18886 17.9512C9.62563 21.2927 17.9424 25.5122 19.8748 26.4756C19.9359 26.5 20.0093 26.4878 20.0582 26.439ZM18.774 29.2927C18.7496 29.2195 18.6762 29.1707 18.5906 29.1707L4.74567 29.6463C6.25002 32.3171 8.78173 34.3902 11.4113 33.7561C13.2336 33.3049 17.3431 30.439 18.7007 29.4634C18.8107 29.378 18.774 29.3049 18.774 29.2927ZM18.982 28.061C19.0553 27.9512 18.933 27.8537 18.933 27.8537C12.8545 23.7561 1.06429 17.4634 1.06429 17.4634C0.673496 18.6578 0.564175 19.9259 0.744819 21.1692C0.925463 22.4125 1.39121 23.5975 2.10585 24.6322C2.8205 25.6668 3.7648 26.5232 4.86536 27.1348C5.96592 27.7464 7.19309 28.0967 8.45151 28.1585C8.65943 28.1951 16.6826 28.1585 18.8352 28.1463C18.8964 28.1341 18.9453 28.1098 18.982 28.061ZM19.8993 0.0121951C19.3 0.0609756 17.6733 0.439024 17.6733 0.439024C14.0042 1.37805 13.1358 4.70732 13.1358 4.70732C12.4631 6.79268 13.148 9.09756 13.148 9.09756C14.3711 14.5122 20.3885 23.4268 21.6849 25.2927C21.7705 25.3902 21.8439 25.3537 21.8439 25.3537C21.9173 25.3293 21.9784 25.2683 21.9784 25.1829C23.9842 5.28049 19.8993 0.0121951 19.8993 0.0121951ZM24.4857 25.3293C24.5591 25.3537 24.6447 25.3293 24.6814 25.2561C26.0145 23.3415 31.9952 14.4756 33.2183 9.08537C33.2183 9.08537 33.8787 6.47561 33.2427 4.69512C33.2427 4.69512 32.3377 1.31707 28.6685 0.426829C28.6685 0.426829 27.6167 0.158537 26.4915 0C26.4915 0 22.382 5.26829 24.3878 25.1707C24.3756 25.2439 24.4245 25.3049 24.4857 25.3293ZM27.7635 29.1829C27.7309 29.1895 27.7 29.2026 27.6726 29.2215C27.6453 29.2403 27.6221 29.2646 27.6045 29.2927C27.5922 29.3659 27.6045 29.4268 27.6534 29.4756C28.9743 30.4268 32.9981 33.2317 34.9305 33.7683C34.9305 33.7683 38.5141 34.9878 41.6206 29.6585L27.7635 29.1829ZM45.3142 17.439C45.3142 17.439 33.5485 23.7439 27.4577 27.8415C27.3965 27.8902 27.3599 27.9634 27.3843 28.0366C27.3843 28.0366 27.4455 28.1463 27.5311 28.1463C29.7081 28.1463 37.9515 28.1585 38.1716 28.122C38.9911 28.061 39.7983 27.878 40.5566 27.5732C40.5566 27.5732 43.4919 26.6463 45.0085 23.3171C45.0085 23.3171 46.3661 20.6098 45.3142 17.439ZM26.3447 26.439C26.3936 26.4756 26.467 26.4878 26.5282 26.4512C28.5095 25.4634 36.7651 21.2805 40.1774 17.9512C40.1774 17.9512 42.3422 16.2195 42.4523 13.4268C42.6969 9.56098 38.7954 5.97561 38.7954 5.97561C38.7954 5.97561 31.5794 14.6951 26.2836 26.2195C26.2751 26.2583 26.2762 26.2986 26.2869 26.3368C26.2975 26.3751 26.3174 26.4102 26.3447 26.439Z" fill="#CE0E2D"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="i-header-search">
+                    <form action="/search/" method="get">
+                        <div class="form-group group-search mb-0">
+                            <input type="text" autocomplete="off" class="form-control input-h48 bg-light-blue" name="q" id="search-input" placeholder="Поиск">
+                        </div>
+                        <input type="hidden" name="how" value="d">
+                        <button id="search-btn" class="i-btn-magnifier" type="submit">
+                            <svg>
+                                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#magnifier"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const forms = $('[action="/search/"]');
+                        forms.on('submit', function(e) {
+                            if (this.elements.q && !this.elements.q.value.length) e.preventDefault();
+                        });
+                    })
+                </script>
+
+                <div id="bxdynamic_desktop-auth-form_start" style="display:none"></div><div id="bxdynamic_desktop-auth-form_end" style="display:none"></div>
+                <button id="menu-btn" type="button" class="btn-burger i-header-container__burger">
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#menu"></use>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <script>
+            const checkbox = document.querySelector('#day-night-switch');
+            if (currentTheme == "dark") {
+                checkbox.checked = true;
+            } else if (currentTheme == "light") {
+                checkbox.checked = false;
+            }
+            if (!currentTheme && prefersDarkScheme) {
+                checkbox.checked = true;
+            }
+        </script>
+
+        <!-- ID= --><!-- NAME= --><div class="ajax_intape_banner"></div>
+        <aside class="mobile-menu">
+            <button type="button" class="mobile-menu__close i-btn-close-20">
+                <svg>
+                    <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#close-20"></use>
+                </svg>
+            </button>
+
+            <div id="bxdynamic_mobile-auth-form_start" style="display:none"></div><div id="bxdynamic_mobile-auth-form_end" style="display:none"></div>
+            <div class="mobile-menu__middle">
+                
+
+    <ul class="mobile-nav-links text-16">
+
+		
+							<li>
+										<a href="/" class="">Свежее</a>
+									</li>
+			
+			
+		
+			
+				
+			
+			
+		
+			
+				
+			
+			
+		
+			
+				
+			
+			
+		
+			
+				
+			
+			
+		
+							<li>
+										<a href="/main/" class="active">Темы</a>
+											<ul>
+							<li><a class="" href="/main/reviews/">Обзоры</a></li><li><a class="active" href="/main/os/">Гайды</a></li><li><a class="" href="/main/games/">Игры</a></li><li><a class="" href="/main/recommendation/">Надо брать</a></li>						</ul>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/blogs/" class="">Блоги</a>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/qa/" class="">Вопросы</a>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/about/" class="">Об издании</a>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/specialpr.php" class="">Спецпроекты</a>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/contacts.php" class="">Контакты</a>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/rules.php" class="">Правила</a>
+									</li>
+			
+			
+		
+							<li>
+										<a href="/advertising/" class="">Реклама</a>
+									</li>
+			
+			
+		  	</ul>
+
+            </div>
+
+            <div class="mobile-menu__bottom">
+                <p class="text-12 mb-2 color-dim-blue">Будь в курсе последних новостей из мира гаджетов и технологий</p>
+                <form action="#" method="post">
+                    <div class="input-group-subscribe input-group-subscribe--white">
+                        <input type="text" class="form-control no-bg" id="email2" placeholder="Введите ваш e-mail">
+                        <button type="submit" class="i-btn-enter"><svg>
+                                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#arrow-right"></use>
+                            </svg></button>
+                    </div>
+                </form>
+                
+    <div class="social-horizontal-list mb-20">
+
+            <a target="_blank" href="https://vk.com/iguides" class="i-btn-social-white"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-vk"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://twitter.com/iGuides_ru" class="i-btn-social-white"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-tw"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://t.me/iguides" class="i-btn-social-white"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-telegram"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://ok.ru/group/70000003802751" class="i-btn-social-white"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-od"></use>
+            </svg>
+        </a>
+        </div>
+
+                <div class="">
+                    <div class="text-12 mb-10 color-dim-blue">iGuides для смартфонов Apple</div>
+                    <a class="i-footer-store" href="https://itunes.apple.com/ru/app/iguides/id467633606?l=ru&ls=1&mt=8&uo=8&at=11l6cR" target="_blank">
+                        <img class="" src="/local/templates/iguides-2022/img/app-store.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <section class="main-container container-md pt-30">
+
+<section class="row mb-30 mb-md-60">
+    <section class="col-12">
+
+        <div id="bxdynamic_banner-top_start" style="display:none"></div><div id="bxdynamic_banner-top_end" style="display:none"></div>
+    </section>
+</section>
+<section class="row">
+    <section class="col" itemscope itemtype="http://schema.org/Article">
+            <div class="i-tag-list mb-3 mb-md-4">
+                    <a itemprop="keywords" rel="tag" class="i-tag" href="/search/tele2/">Tele2</a>
+            </div>
+    
+    <div class="i-content">
+        <h2 itemprop="name">Tele2 может подключить две платные услуги. Как проверить, есть ли они у вас?</h2>
+
+        <div class="d-flex flex-wrap align-items-center mb-3 mb-md-4">
+                            <div class="mr-2 mr-md-3">
+                    <img
+                        src="/upload/resize_cache/main/ae9/40_40_1/ae95808eabaa17995fc9e4cdac5faef4.jpg"
+                        class="i-img-40-r i-mob-img-28-r"
+                        alt="Александр"
+                    >
+                </div>
+                        <div
+                    class="mr-0 mr-lg-4 text-12 text-sm-16"
+            >
+                <span class="color-black" itemprop="author">
+                                            Александр Кузнецов                                    </span>
+                <span class="color-light-black">
+                    — <time
+                            itemprop="datePublished"
+                            datetime="2023-12-14T19:20:00+0300"
+                    >
+                        14 декабря 2023,  19:20                    </time>
+                </span>
+            </div>
+            <div class="w-100 d-block d-lg-none mb-10"></div>
+            <div class="mr-2 mr-sm-4 mb-2 mb-lg-0">
+                            </div>
+            <div class="mr-2 mr-sm-4 mb-2 mb-lg-0">
+                            </div>
+            <div class="ml-auto mb-2 mb-lg-0">
+                <div class="statistics color-light-black comment-count">
+                    <span class="statistics__text">
+                        <span class="count_views"></span>
+                        <span id="views_num_detail"></span>
+                    </span>
+                    <a class="color-light-black" href="#itape">
+                                            <span class="statistics__text hide-block">
+                            <span class="count_comments"></span>
+                            <span id="comments_num_detail" ></span>
+                        </span>
+                                        </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="i-content__post-content" itemprop="articleBody">
+                            
+                                                            <p><img itemprop="image" src="/upload/medialibrary/aae/llkdldiooofq7ryh6dze3d30twtw8l7q.png" title="Tele2"><br>
+ <br>
+ Сотовые операторы по-прежнему грешат подключением услуг и&nbsp;подписок без прямого&nbsp;желания абонента, и&nbsp;Tele2 не&nbsp;исключение. Иногда они маскируют платные услуги, временно предоставляя их бесплатно.<br>
+ <br>
+ «Мой помощник» у&nbsp;Tele2&nbsp;— как раз та&nbsp;самая коварная услуга, которая поначалу не&nbsp;отображается в&nbsp;списке платных, а через какое-то время методично опустошает счёт. Плата за&nbsp;эту услугу небольшая (1 рубль или чуть больше в&nbsp;день в&nbsp;зависимости от&nbsp;тарифа), поэтому заметить списания сложно, для этого придётся проверять детализацию в&nbsp;личном кабинете.<br>
+ <br>
+ Некоторые пользователи жалуются, что Tele2 подключает «Моего помощника» по&nbsp;своей инициативе, причём оператор действует довольно хитро. Эта услуга по&nbsp;умолчанию активируется с&nbsp;первого дня почти на&nbsp;любом тарифном плане, и&nbsp;в&nbsp;первый месяц она бесплатная, а&nbsp;в&nbsp;дальнейшем приходится платить за&nbsp;неё.<br>
+ <br>
+ Что делает «Мой помощник»? Он&nbsp;добавляет две&nbsp;опции: «Голосовую почту» (позволяет собеседнику наговорить сообщение, если телефон абонента отключен или не&nbsp;в&nbsp;сети, а&nbsp;абоненту прослушать это сообщение, когда его телефон появится в&nbsp;сети) и&nbsp;«Кто звонил» (сообщение о&nbsp;том, что абоненту звонили и&nbsp;не&nbsp;дозвонились, кто это был, с&nbsp;какого номера и&nbsp;когда пытался дозвониться).<br>
+ <br>
+ Проверить статус этой услуги можно с&nbsp;помощью USSD-запроса *121*100200#. Если услуга подключена, её&nbsp;можно отключить USSD-запросом *121*100200*0#.<br>
+ <br>
+ Но&nbsp;это не&nbsp;всё. После отключения «Моего помощника» Tele2 начинает списывать деньги за услугу «Кто звонил» (она предоставляется бесплатно тем, кто подключил «Моего помощника», а&nbsp;после его отключения становится платной&nbsp;— примерно 60 копеек в&nbsp;сутки). Проверить статус подключения услуги «Кто звонил» можно USSD-запросом *155*33#, а&nbsp;для её&nbsp;отключения нужно набрать *155*330#.<br>
+<ul>
+</ul>
+<p><div id="bxdynamic_y0XwfU_start" style="display:none"></div><div id="bxdynamic_y0XwfU_end" style="display:none"></div></p>
+</p>
+<blockquote>
+	 Подписаться на&nbsp;<a href="https://t.me/iguides">iGuides в&nbsp;Telegram</a>, чтобы узнать обо всем первым
+</blockquote>                                    
+                    </div>
+    </div>
+
+    <div class="mt-4 mb-4 mt-sm-40 mb-sm-30">
+        <div id="bxdynamic_article_detail_start" style="display:none"></div><div id="bxdynamic_article_detail_end" style="display:none"></div>    </div>
+
+    <div class="i-v-list-hr mb-0"></div>
+    <div class="i-v-list-hr i-v-list-hr__small">
+        <div class="d-flex mb-0 align-items-center">
+            <div class="">
+
+                <link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16466529162409" type="text/css" rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?164665303223804" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?164665303262522"></script>
+<div id="bxdynamic_oPzmHO_start" style="display:none"></div><span 
+	id="rating-vote-IBLOCK_ELEMENT-524912-1710240921"
+	class="rating mr-2 rating-vote rating-vote-disabled"
+	title="Только авторизованные пользователи могут участвовать в голосовании"
+>
+	<a
+		id="rating-vote-IBLOCK_ELEMENT-524912-1710240921-minus"
+		class="i-btn-minus mr-2 rating-vote-minus "
+		title=""
+		data-authorized="0"
+	>
+		<svg><use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#minus"></use></svg>
+	</a>
+	<span
+		id="rating-vote-IBLOCK_ELEMENT-524912-1710240921-result"
+		class="text-14 px-1 rating-vote-result rating-vote-result-plus"
+		title="Голосов - 13 (из них: 8 за и 5 против)"
+	>
+		3	</span>
+	<a
+		id="rating-vote-IBLOCK_ELEMENT-524912-1710240921-plus"
+		class="i-btn-plus ml-2 rating-vote-plus "
+		title=""
+		data-authorized="0"
+	>
+		<svg><use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#plus"></use></svg>
+	</a>
+</span>
+
+<script type="text/javascript">
+BX.ready(function(){
+	if (!window.Rating && top.Rating)
+		Rating = top.Rating;
+	Rating.Set(
+		'IBLOCK_ELEMENT-524912-1710240921',
+		'IBLOCK_ELEMENT',
+		'524912',
+		'N',
+		'',
+		{'PLUS' : 'Нравится', 'MINUS' : 'Не нравится', 'CANCEL' : 'Забрать свой голос'},
+		'standart',
+		'/personal/profile/#USER_ID#/'
+	);
+});
+</script>
+<div id="bxdynamic_oPzmHO_end" style="display:none"></div>
+            </div>
+            <div class="flex-1">
+                <div class="i-h-list2 m-0 text-right">
+    <div
+        class="ya-share2 ya-share2-custom"
+        data-shape="round"
+        data-url="https://www.iguides.ru/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/"
+        data-services="twitter,vkontakte,whatsapp,telegram">
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="i-v-list-hr mb-0"></div>
+            <div class="row text-10 text-sm-16 flex-column flex-md-row mb-0">
+    <div class="col-md-7 mb-10 mb-md-20">
+	 iGuides в Яндекс.Дзен —&nbsp; <a href="https://zen.yandex.ru/iguides" target="_blank">zen.yandex.ru/iguides</a>
+</div>
+<div class="col-md-5 mb-10 mb-md-20">
+	<div class="ml-0 ml-lg-40">
+		 iGuides&nbsp;в&nbsp;Telegram&nbsp;—&nbsp;<a href="https://t.me/iguides" target="_blank">t.me/iguides</a>
+	</div>
+</div>
+<div class="col-md-7 mb-10 mb-md-20">
+	 iGuides в VK —&nbsp; <a href="https://vk.com/iguides" target="_blank">vk.com/iguides</a>
+</div>
+<div class="col-md-5 mb-10 mb-md-20">
+	<div class="ml-0 ml-lg-40">
+		 iGuides&nbsp;в&nbsp;Ok.ru&nbsp;—&nbsp;<a href="https://ok.ru/group/70000003802751" target="_blank">ok.ru/iguides</a>
+	</div> 
+</div></div>
+        <div class="row text-10 text-sm-16 flex-column flex-md-row">
+                        <div class="col-md-7 order-md-1 related-links">
+            <div class="pb-0 pb-md-1">Cсылки по теме:</div>
+                                    <div class="mt-2">
+                <a href="https://www.iguides.ru/main/os/v_rossii_poyavilsya_novyy_sposob_oplachivat_pokupki_v_app_store/?sphrase_id=12387972" class="color-dim-black">В России появился новый способ оплачивать покупки в App Store, Spotify, Steam, PlayStation, Xbox и других сервисах</a>
+            </div>
+                        <div class="mt-2">
+                <a href="https://www.iguides.ru/main/other/tele2_zapretil_razdachu_interneta_na_starykh_tarifakh_dazhe_za_dengi_nelzya/?sphrase_id=12387972" class="color-dim-black">Tele2 запретил раздачу интернета на старых тарифах. Даже за деньги — нельзя</a>
+            </div>
+                        <div class="mt-2">
+                <a href="https://www.iguides.ru/main/security/chego_tolko_ey_ne_napikhali_v_chek/?sphrase_id=12387972" class="color-dim-black">Жительница Ярославля решила купить в кредит дешёвый смартфон. Чего только ей не напихали в чек!</a>
+            </div>
+                    </div>
+            </div>
+
+</section>
+
+    <section class="col-xl-right mt-30 mt-xl-0">
+
+        <div id="bxdynamic_right_detail_start" style="display:none"></div><div id="bxdynamic_right_detail_end" style="display:none"></div>
+
+            <div class="listing-mini mb-60 d-none d-xl-block">
+        <h2 class="listing-mini__heading">Рекомендации</h2>
+        <ul class="listing-mini__content">
+                            <li class="listing-mini__item" title="Самую полезную функцию One UI 6.1 уже сейчас можно активировать на любом Samsung Galaxy">
+                    <a class="listing-mini__media" href="/main/os/samuyu_poleznuyu_funktsiyu_one_ui_6_1_uzhe_seychas_mozhno_aktivirovat_na_lyubom_samsung_galaxy/">
+                        <img class="i-img-48" src="/upload/resize_cache/iblock/170/48_48_2/bngofxzl06fce3dlb1ar1fbc3s4kdnhd.jpeg" alt="">
+                    </a>
+                    <a class="color-black text-14 line-height-125" href="/main/os/samuyu_poleznuyu_funktsiyu_one_ui_6_1_uzhe_seychas_mozhno_aktivirovat_na_lyubom_samsung_galaxy/">
+                        <strong>Самую полезную функцию One UI 6.1 уже сейчас можно активировать на любом Samsung Galaxy</strong>
+                    </a>
+                </li>
+                            <li class="listing-mini__item" title="Найден способ покупать товары на Ozon в два-три раза дешевле">
+                    <a class="listing-mini__media" href="/main/os/nayden_sposob_pokupat_tovary_na_ozon_v_dva_tri_raza_deshevle/">
+                        <img class="i-img-48" src="/upload/resize_cache/iblock/ded/48_48_2/ydnmtznw2mwmg690bsn4v2wudry4qqx2.png" alt="">
+                    </a>
+                    <a class="color-black text-14 line-height-125" href="/main/os/nayden_sposob_pokupat_tovary_na_ozon_v_dva_tri_raza_deshevle/">
+                        <strong>Найден способ покупать товары на Ozon в два-три раза дешевле</strong>
+                    </a>
+                </li>
+                            <li class="listing-mini__item" title="Как читать сообщения в WhatsApp незаметно для отправителя">
+                    <a class="listing-mini__media" href="/main/other/kak_chitat_soobshcheniya_v_whatsapp_nezametno_dlya_otpravitelya/">
+                        <img class="i-img-48" src="/upload/resize_cache/iblock/228/48_48_2/ajuiegb95l1gi1ukzyn8bpkr8pvgbnab.jpg" alt="">
+                    </a>
+                    <a class="color-black text-14 line-height-125" href="/main/other/kak_chitat_soobshcheniya_v_whatsapp_nezametno_dlya_otpravitelya/">
+                        <strong>Как читать сообщения в WhatsApp незаметно для отправителя</strong>
+                    </a>
+                </li>
+                            <li class="listing-mini__item" title="Легальный способ бесплатно активировать Windows и Office">
+                    <a class="listing-mini__media" href="/main/os/legalnyy_sposob_besplatno_aktivirovat_windows_i_office/">
+                        <img class="i-img-48" src="/upload/resize_cache/iblock/6b8/48_48_2/t4r0wmg8ogpkd1ub75j4iymeoi4d7x13.png" alt="">
+                    </a>
+                    <a class="color-black text-14 line-height-125" href="/main/os/legalnyy_sposob_besplatno_aktivirovat_windows_i_office/">
+                        <strong>Легальный способ бесплатно активировать Windows и Office</strong>
+                    </a>
+                </li>
+                    </ul>
+    </div>
+    <div class="mt-0 mt-sm-30  mb-30 d-xl-none">
+        <h2 class="mb-3">Рекомендации</h2>
+        <div class="listing-slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                                        <div class="swiper-slide listing-slider__item">
+                        <div class="listing-slider__slide">
+                        <a href="/main/os/samuyu_poleznuyu_funktsiyu_one_ui_6_1_uzhe_seychas_mozhno_aktivirovat_na_lyubom_samsung_galaxy/"><img src="/upload/resize_cache/iblock/170/284_160_2/bngofxzl06fce3dlb1ar1fbc3s4kdnhd.jpeg" alt=""></a>
+                        </div>
+                        <div class="listing-slider__label">
+                            <a href="/main/os/samuyu_poleznuyu_funktsiyu_one_ui_6_1_uzhe_seychas_mozhno_aktivirovat_na_lyubom_samsung_galaxy/" class="color-black">
+                                <strong>Самую полезную функцию One UI 6.1 уже сейчас можно активировать на любом Samsung Galaxy</strong>
+                            </a>
+                        </div>
+                    </div>
+                                        <div class="swiper-slide listing-slider__item">
+                        <div class="listing-slider__slide">
+                        <a href="/main/os/nayden_sposob_pokupat_tovary_na_ozon_v_dva_tri_raza_deshevle/"><img src="/upload/resize_cache/iblock/ded/284_160_2/ydnmtznw2mwmg690bsn4v2wudry4qqx2.png" alt=""></a>
+                        </div>
+                        <div class="listing-slider__label">
+                            <a href="/main/os/nayden_sposob_pokupat_tovary_na_ozon_v_dva_tri_raza_deshevle/" class="color-black">
+                                <strong>Найден способ покупать товары на Ozon в два-три раза дешевле</strong>
+                            </a>
+                        </div>
+                    </div>
+                                        <div class="swiper-slide listing-slider__item">
+                        <div class="listing-slider__slide">
+                        <a href="/main/other/kak_chitat_soobshcheniya_v_whatsapp_nezametno_dlya_otpravitelya/"><img src="/upload/resize_cache/iblock/228/284_160_2/ajuiegb95l1gi1ukzyn8bpkr8pvgbnab.jpg" alt=""></a>
+                        </div>
+                        <div class="listing-slider__label">
+                            <a href="/main/other/kak_chitat_soobshcheniya_v_whatsapp_nezametno_dlya_otpravitelya/" class="color-black">
+                                <strong>Как читать сообщения в WhatsApp незаметно для отправителя</strong>
+                            </a>
+                        </div>
+                    </div>
+                                        <div class="swiper-slide listing-slider__item">
+                        <div class="listing-slider__slide">
+                        <a href="/main/os/legalnyy_sposob_besplatno_aktivirovat_windows_i_office/"><img src="/upload/resize_cache/iblock/6b8/284_160_2/t4r0wmg8ogpkd1ub75j4iymeoi4d7x13.png" alt=""></a>
+                        </div>
+                        <div class="listing-slider__label">
+                            <a href="/main/os/legalnyy_sposob_besplatno_aktivirovat_windows_i_office/" class="color-black">
+                                <strong>Легальный способ бесплатно активировать Windows и Office</strong>
+                            </a>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+        <script type="text/javascript">if (window.location.hash != '' && window.location.hash != '#') top.BX.ajax.history.checkRedirectStart('bxajaxid', '8afe44371e7ba9ca3b36799623f66ced')</script><div id="comp_8afe44371e7ba9ca3b36799623f66ced"><div id="sender-subscribe">
+    
+    <script>
+        BX.ready(function()
+        {
+            BX.bind(BX("bx_subscribe_btn_sljzMT"), 'click', function() {
+                setTimeout(mailSender, 250);
+                return false;
+            });
+        });
+
+        function mailSender()
+        {
+            setTimeout(function() {
+                var btn = BX("bx_subscribe_btn_sljzMT");
+                if(btn)
+                {
+                    var btn_span = btn.querySelector("span");
+                    var btn_subscribe_width = btn_span.style.width;
+                    BX.addClass(btn, "send");
+                    btn_span.outterHTML = "<span><i class='fa fa-check'></i> ГОТОВО</span>";
+                    if(btn_subscribe_width)
+                        btn.querySelector("span").style["min-width"] = btn_subscribe_width+"px";
+                }
+            }, 400);
+        }
+    </script>
+    <div class="i-box i-box__white i-box__vertical box-subscribe-social d-none d-xl-block">
+        <h4>Будь в курсе последних новостей из мира гаджетов и технологий</h4>
+        <form
+                role="form"
+                action="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/"
+                method="post" onsubmit="BX('bx_subscribe_btn_sljzMT').disabled=true;"
+        >
+            <input type="hidden" name="sessid" id="sessid_1" value="" />            <div class="input-group-subscribe">
+                <input type="email"
+                       class="form-control no-bg"
+                       name="SENDER_SUBSCRIBE_EMAIL"
+                       value=""
+                       title="Введите ваш e-mail"
+                       placeholder="Введите ваш e-mail">
+                                                            <input type="hidden" name="SENDER_SUBSCRIBE_RUB_ID[]"  value="20" checked >
+                                                    <button type="submit" class="i-btn-enter"  id="bx_subscribe_btn_sljzMT"><svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#arrow-right"></use>
+                    </svg>
+                </button>
+            </div>
+        </form>
+        <h4>Мы в соцсетях</h4>
+        
+    <div class="">
+
+            <a target="_blank" href="https://vk.com/iguides" class="i-btn-social-light"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-vk"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://twitter.com/iGuides_ru" class="i-btn-social-light"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-tw"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://t.me/iguides" class="i-btn-social-light"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-telegram"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://ok.ru/group/70000003802751" class="i-btn-social-light"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-od"></use>
+            </svg>
+        </a>
+        </div>
+
+    </div>
+</div>
+</div><script type="text/javascript">if (top.BX.ajax.history.bHashCollision) top.BX.ajax.history.checkRedirectFinish('bxajaxid', '8afe44371e7ba9ca3b36799623f66ced');</script><script type="text/javascript">top.BX.ready(BX.defer(function() {window.AJAX_PAGE_STATE = new top.BX.ajax.component('comp_8afe44371e7ba9ca3b36799623f66ced'); top.BX.ajax.history.init(window.AJAX_PAGE_STATE);}))</script>    </section>
+</section>
+
+<section class="row mb-40 mt-30 mt-md-60">
+    <section class="col-12">
+
+        <script type="text/javascript">if (window.location.hash != '' && window.location.hash != '#') top.BX.ajax.history.checkRedirectStart('bxajaxid', 'b3826729a3462b45aa98c4b8edbda76e')</script><div id="comp_b3826729a3462b45aa98c4b8edbda76e"><div class="footer-mail"  id="sender-subscribe">
+    
+    <script>
+        BX.ready(function()
+        {
+            BX.bind(BX("bx_subscribe_btn_footer_i0tFNu"), 'click', function() {
+                setTimeout(mailSender, 250);
+                return false;
+            });
+        });
+
+        function mailSender()
+        {
+            setTimeout(function() {
+                var btn = BX("bx_subscribe_btn_footer_i0tFNu");
+                if(btn)
+                {
+                    var btn_span = btn.querySelector("span");
+                    var btn_subscribe_width = btn_span.style.width;
+                    BX.addClass(btn, "send");
+                    btn_span.outterHTML = "<span><i class='fa fa-check'></i> ГОТОВО</span>";
+                    if(btn_subscribe_width)
+                        btn.querySelector("span").style["min-width"] = btn_subscribe_width+"px";
+                }
+            }, 400);
+        }
+    </script>
+    <div class="box-subscrube-horizontal">
+        <h2 class="color-white">Будь в курсе последних новостей из мира гаджетов и технологий</h2>
+        <form
+                role="form"
+                action="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/"
+                method="post" onsubmit="BX('bx_subscribe_btn_footer_i0tFNu').disabled=true;"
+        >
+            <input type="hidden" name="sessid" id="sessid_3" value="" />            <div class="input-group-subscribe input-group-subscribe--white">
+                <input type="hidden" name="sender_subscription" value="add">
+
+                <input type="email"
+                       class="form-control no-bg"
+                       name="SENDER_SUBSCRIBE_EMAIL"
+                       value=""
+                       title="Введите ваш e-mail"
+                       placeholder="Введите ваш e-mail">
+
+                                                            <input type="hidden" name="SENDER_SUBSCRIBE_RUB_ID[]"  value="20" checked >
+                                    
+                <button type="submit" class="i-btn-enter"  id="bx_subscribe_btn_footer_i0tFNu"><svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#arrow-right"></use>
+                    </svg></button>
+            </div>
+        </form>
+    </div>
+</div>
+</div><script type="text/javascript">if (top.BX.ajax.history.bHashCollision) top.BX.ajax.history.checkRedirectFinish('bxajaxid', 'b3826729a3462b45aa98c4b8edbda76e');</script><script type="text/javascript">top.BX.ready(BX.defer(function() {window.AJAX_PAGE_STATE = new top.BX.ajax.component('comp_b3826729a3462b45aa98c4b8edbda76e'); top.BX.ajax.history.init(window.AJAX_PAGE_STATE);}))</script>    </section>
+</section>
+    <section class="row">
+        <section class="col-12">
+
+            <div id="bxdynamic_before_comments_start" style="display:none"></div><div id="bxdynamic_before_comments_end" style="display:none"></div>
+        </section>
+    </section>
+<section class="row">
+    <section class="col">
+
+        <div id="bxdynamic_jxX10R_start" style="display:none"></div><section class="col">
+  <div class="burlakastudio_realcommenter "
+  data-talk-id="1"
+  data-talk-url="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/"
+  data-talk-hash="9548f"
+  id="itape"
+  >
+    
+                    <h2 class="mb-0 text-20 text-sm-24" data-comments-count="<ins>6</ins>">
+                        Комментарии
+                    </h2>
+                          <div
+        class=""
+                >
+          
+                    <div class="add-comment brn_add collapse show" data-new-comment="top" >
+                        <div class="btn-toolbar mt-12 mt-sm-40 mb-sm-40-top  brna_form _ambushed" data-zero="top">
+                            <div class="btn-group">
+                                <button type="button" class="i-btn outline i-mob-btn-h48" data-toggle="collapse" data-authorized="0">
+                                    Добавить комментарий
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="br_node"></div>
+      </div>
+      <div class="br_tree" id="itape_1">
+    
+                <div class="br_comment i-v-list-hr "     id="answercontainer_618850">
+                    <article class="comment" >
+                        
+                <div class="comment__media">
+                    <i class="i-img-40-r i-mobx-img-28-r anonym_avatar"></i>
+                    <div class="comment__score -negative text-14">&ndash;534</div>
+                </div>
+                <div class="comment__content">
+                    <div class="comment__name"  >
+                        <a href="/personal/profile/5866/" class="author"><span >xtcxtc</span></a> 
+                    </div>
+                    
+                    <div class="comment__text color-dim-black" >эти услуги сами никогда не подключались. вранье полное.</div>
+                
+                    
+                    <div class="comment__stat brc_header">
+                        <span class="comment_date" >15 декабря 2023 в 07:30</span>
+                        
+                    <aside class="rating">
+                        
+            <span class="brc_voteblock " id="ivt_618850">
+                <button class="i-btn-minus like-link br_iva_btn _down" title="Не согласен" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#minus"></use>
+                    </svg>
+                </button>
+                <span class="color-dim-black -negative" title="&ndash;2">&ndash;2</span>
+                <button class="i-btn-plus like-link br_iva_btn _up" title="Поддерживаю" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#plus"></use>
+                    </svg>
+                </button>
+            </span>
+                        
+                    </aside>
+                
+                        
+            <div class="brn_add">
+                <span data-authorized="0" class="like-link">Ответить<span>
+            </div>
+        
+                        <a rel="nofollow" class="comment__anchor" href="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/?itape=618850">#</a>
+                    </div>
+                </div>
+            
+                    </article>
+                    <div class="br_node comment--level2 ">
+                        
+                <div class="br_comment  "     id="answercontainer_618896">
+                    <article class="comment" >
+                        
+                <div class="comment__media">
+                    
+                <a href="/personal/profile/28/">
+                    <img class="i-img-40-r i-mobx-img-28-r" src="/upload/resize_cache/main/ae9/22_22_1/ae95808eabaa17995fc9e4cdac5faef4.jpg" alt="Александр Кузнецов">
+                </a>
+            
+                    <div class="comment__score -positive text-14">+949</div>
+                </div>
+                <div class="comment__content">
+                    <div class="comment__name"  >
+                        <a href="/personal/profile/28/" class="author"><span >Александр Кузнецов</span></a><a class="comment__replay" href="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/?itape=618850" data-reply-to="618850">
+                                        <svg class="color-light-black icon-16 mr-2">
+                                            <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#comment-replay"></use>
+                                        </svg>
+                                        xtcxtc
+                                    </a> 
+                    </div>
+                    
+                    <div class="comment__text color-dim-black" >Да конечно, ага. Это даже указано на сайте Tele2 <a href="https://msk.tele2.ru/journal/article/who-called">https://msk.tele2.ru/journal/article/who-called</a></div>
+                
+                    
+			<section>
+				
+			<div class="uploaded_images">
+			<span data-image-id="339327"><img src="/upload/burlakastudio.realcommenter/660/rmgk2fmx42db0h08aueflwo7c1axl8g7_thumb_125_125_1702648926.png" alt=""></span>
+		</div>
+		
+			</section>
+		
+                    <div class="comment__stat brc_header">
+                        <span class="comment_date" >15 декабря 2023 в 17:02</span>
+                        
+                    <aside class="rating">
+                        
+            <span class="brc_voteblock " id="ivt_618896">
+                <button class="i-btn-minus like-link br_iva_btn _down" title="Не согласен" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#minus"></use>
+                    </svg>
+                </button>
+                <span class="color-dim-black -positive" title="+1">+1</span>
+                <button class="i-btn-plus like-link br_iva_btn _up" title="Поддерживаю" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#plus"></use>
+                    </svg>
+                </button>
+            </span>
+                        
+                    </aside>
+                
+                        
+            <div class="brn_add">
+                <span data-authorized="0" class="like-link">Ответить<span>
+            </div>
+        
+                        <a rel="nofollow" class="comment__anchor" href="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/?itape=618896">#</a>
+                    </div>
+                </div>
+            
+                    </article>
+                    <div class="br_node comment--level2 ">
+                        
+                    </div>
+                </div>
+            
+                    </div>
+                </div>
+            
+                <div class="br_comment i-v-list-hr "     id="answercontainer_618859">
+                    <article class="comment" >
+                        
+                <div class="comment__media">
+                    <i class="i-img-40-r i-mobx-img-28-r anonym_avatar"></i>
+                    <div class="comment__score -positive text-14">+5</div>
+                </div>
+                <div class="comment__content">
+                    <div class="comment__name"  >
+                        <a href="/personal/profile/194748/" class="author"><span >Fil79</span></a> 
+                    </div>
+                    
+                    <div class="comment__text color-dim-black" >Данная услуга платная не на всех тарифах. Читайте описание внимательно и не вводите людей в заблуждение</div>
+                
+                    
+                    <div class="comment__stat brc_header">
+                        <span class="comment_date" >15 декабря 2023 в 09:29</span>
+                        
+                    <aside class="rating">
+                        
+            <span class="brc_voteblock " id="ivt_618859">
+                <button class="i-btn-minus like-link br_iva_btn _down" title="Не согласен" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#minus"></use>
+                    </svg>
+                </button>
+                <span class="color-dim-black -negative" title="&ndash;1">&ndash;1</span>
+                <button class="i-btn-plus like-link br_iva_btn _up" title="Поддерживаю" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#plus"></use>
+                    </svg>
+                </button>
+            </span>
+                        
+                    </aside>
+                
+                        
+            <div class="brn_add">
+                <span data-authorized="0" class="like-link">Ответить<span>
+            </div>
+        
+                        <a rel="nofollow" class="comment__anchor" href="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/?itape=618859">#</a>
+                    </div>
+                </div>
+            
+                    </article>
+                    <div class="br_node comment--level2 ">
+                        
+                <div class="br_comment  "     id="answercontainer_618897">
+                    <article class="comment" >
+                        
+                <div class="comment__media">
+                    
+                <a href="/personal/profile/28/">
+                    <img class="i-img-40-r i-mobx-img-28-r" src="/upload/resize_cache/main/ae9/22_22_1/ae95808eabaa17995fc9e4cdac5faef4.jpg" alt="Александр Кузнецов">
+                </a>
+            
+                    <div class="comment__score -positive text-14">+949</div>
+                </div>
+                <div class="comment__content">
+                    <div class="comment__name"  >
+                        <a href="/personal/profile/28/" class="author"><span >Александр Кузнецов</span></a><a class="comment__replay" href="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/?itape=618859" data-reply-to="618859">
+                                        <svg class="color-light-black icon-16 mr-2">
+                                            <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#comment-replay"></use>
+                                        </svg>
+                                        Fil79
+                                    </a> 
+                    </div>
+                    
+                    <div class="comment__text color-dim-black" ><span >Так и не написано, что на всех. Тот же совет вам: ч</span><span >итайте внимательно и не вводитесь в заблуждение</span></div>
+                
+                    
+                    <div class="comment__stat brc_header">
+                        <span class="comment_date" >15 декабря 2023 в 17:03</span>
+                        
+                    <aside class="rating">
+                        
+            <span class="brc_voteblock " id="ivt_618897">
+                <button class="i-btn-minus like-link br_iva_btn _down" title="Не согласен" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#minus"></use>
+                    </svg>
+                </button>
+                <span class="color-dim-black -positive" title="+1">+1</span>
+                <button class="i-btn-plus like-link br_iva_btn _up" title="Поддерживаю" data-authorized="0" >
+                    <svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#plus"></use>
+                    </svg>
+                </button>
+            </span>
+                        
+                    </aside>
+                
+                        
+            <div class="brn_add">
+                <span data-authorized="0" class="like-link">Ответить<span>
+            </div>
+        
+                        <a rel="nofollow" class="comment__anchor" href="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/?itape=618897">#</a>
+                    </div>
+                </div>
+            
+                    </article>
+                    <div class="br_node comment--level2 ">
+                        
+                    </div>
+                </div>
+            
+                    </div>
+                </div>
+              </div>
+          <div
+          class="br_comment"
+                >
+          
+                    <div class="add-comment brn_add collapse show" data-new-comment="bottom" >
+                        <div class="btn-toolbar mt-12 mt-sm-40 mb-sm-40-bottom  brna_form _ambushed" data-zero="bottom">
+                            <div class="btn-group">
+                                <button type="button" class="i-btn outline i-mob-btn-h48" data-toggle="collapse" data-authorized="0">
+                                    Добавить комментарий
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="br_node"></div>
+      </div>
+        <input type="hidden" data-outside-var='a:3:{s:13:"USERS_ADD_MOD";a:76:{i:0;s:1:"1";i:1;s:1:"5";i:2;s:2:"21";i:3;s:2:"30";i:4;s:2:"49";i:5;s:4:"5535";i:6;s:5:"43668";i:7;s:5:"52435";i:8;s:5:"72218";i:9;s:5:"72219";i:10;s:5:"72220";i:11;s:5:"72221";i:12;s:5:"72222";i:13;s:5:"72226";i:14;s:5:"72229";i:15;s:5:"72230";i:16;s:5:"72233";i:17;s:5:"72244";i:18;s:5:"72247";i:19;s:6:"195621";i:20;s:6:"219939";i:21;s:1:"9";i:22;s:2:"28";i:23;s:2:"49";i:24;s:4:"5702";i:25;s:5:"40134";i:26;s:5:"40823";i:27;s:5:"41153";i:28;s:5:"43523";i:29;s:5:"43668";i:30;s:5:"44133";i:31;s:5:"45928";i:32;s:5:"47785";i:33;s:5:"51782";i:34;s:5:"52435";i:35;s:5:"55767";i:36;s:5:"67434";i:37;s:5:"71563";i:38;s:5:"72979";i:39;s:5:"72984";i:40;s:5:"73870";i:41;s:6:"172666";i:42;s:6:"195621";i:43;s:6:"201561";i:44;s:6:"202179";i:45;s:6:"210471";i:46;s:1:"9";i:47;s:2:"28";i:48;s:2:"49";i:49;s:2:"50";i:50;s:2:"51";i:51;s:2:"53";i:52;s:2:"77";i:53;s:2:"79";i:54;s:3:"211";i:55;s:3:"304";i:56;s:3:"594";i:57;s:3:"789";i:58;s:4:"2147";i:59;s:4:"4525";i:60;s:4:"5702";i:61;s:5:"41153";i:62;s:5:"43668";i:63;s:5:"45928";i:64;s:5:"47785";i:65;s:5:"51782";i:66;s:5:"52435";i:67;s:5:"55767";i:68;s:5:"67434";i:69;s:5:"73870";i:70;s:6:"195621";i:71;s:6:"202179";i:72;s:6:"210471";i:73;s:5:"51782";i:74;s:5:"52435";i:75;s:5:"52992";}s:10:"STATIC_URL";s:60:"/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/";s:4:"HASH";s:32:"d3059bdb2d3b1cb82e386990663cd1f1";}' value="">
+          </div>
+    <script>
+    $('body').on('click', '[data-authorized="0"]', function(e) {
+        e.preventDefault();
+        $('#loginModalWindow').modal();
+    });
+    $('body').on('click', '.add-comment__form iframe', function(e) {
+        const preview = $(this).closest('.add-comment__form').find('.add-comment__preview');
+        const showPreview = $(this).closest('.add-comment__form').find('.add-comment__preview-show');
+
+        showPreview.collapse('show');
+        preview.collapse('hide');
+
+    });
+    $('body').on('click', '.add-comment__preview-show', function(e) {
+        const preview = $(this).closest('.add-comment__form').find('.add-comment__preview');
+        const iframe = $(this).closest('.add-comment__form').find('.add-comment__textarea iframe')[0];
+        const showPreview = this;
+
+        preview[0].innerHTML = iframe.contentDocument.querySelector('body').innerHTML;
+        if (preview.attr('data-shown') != 'true') {
+            $(iframe.contentDocument.querySelector('body')).on('mousedown', function(e) {
+                preview.collapse('hide');
+                $(showPreview).collapse('show');
+            })
+            preview.attr('data-shown', 'true');
+        }
+    })
+
+    $('body').on('click', '.brf_submit', function(e) {
+        $(this).closest('.add-comment__form').find('.file-fileUploader').click();
+    });
+    
+    $(document).on('dragenter', '.brf_submit' , function(e) {
+        if (!$(this).hasClass('brf_submit--dropbox_shown')) {
+            $(this).find('ins').click();
+            $(this).addClass('brf_submit--dropbox_shown');
+        }
+    });
+    
+    BX.addCustomEvent('StopUpload', function(e) {
+        setTimeout(() => {
+            if (!$(e.controller).closest('.files-preview__send-wrap').find('input[id^="file-doc"]').length) {
+                    $(e.controller).closest('.files-preview__send-wrap').find('.file-selector_hidden').removeClass('file-selector_hidden');
+                }
+        }, 0);
+    });
+    $('body').on('click', '.add-comment__submit', function(e) {
+        if ($(e.target).closest('.add-comment__form').find('.lha-textarea').val().length) {
+            e.target.disabled = 'disabled';
+        }
+    })
+    BX.addCustomEvent('onAjaxSuccess', function(response, event) {
+        if (response?.request?.request_type == 'voting') {
+            window?.realcommenter_admintools_scan_and_init();
+        } else if (response?.request?.request_type == 'add') {
+            if (response.ERROR) {
+                let form = response.request.target_position ? $('[data-form-target="' + response.request.target_position + '"]') : $('[data-form-to="' + response.request.target_node + '"]');
+                form.find('.add-comment__submit').removeAttr('disabled');
+            } else {
+                if (response.request.target_position) {
+                    $('[data-zero="' + response.request.target_position + '"]').closest('.brn_add').collapse('show');
+                }
+            }
+        } else if (response?.request?.request_type == 'get') {
+            if (!response.ERROR) {
+                let form = response.request.comment_target ? $('[data-form-target="' + response.request.comment_target + '"]') : $('[data-form-to="' + response.request.comment_id + '"]');
+                $('[data-zero="' + response.request.comment_target + '"]').closest('.brn_add').collapse('hide');
+                form.collapse('show');
+            }
+        }
+    });
+    BX.addCustomEvent('onAjaxFailure', function(...args) {
+        let e = args[2];
+        if (e?.url?.includes('realcommenter')) {
+            let data = new URLSearchParams(e.data);
+            if (data.get('request_type') == 'add') {
+                let form = data.get('target_position') ? $('[data-form-target="' + data.get('target_position') + '"]') : $('[data-form-to="' + data.get('target_node') + '"]');
+                form.find('.add-comment__submit').removeAttr('disabled');
+            }
+        }
+    });
+    BX.addCustomEvent('bfiledselectfiledialogloaded', function(e) {
+        $(e.controller).closest('.brf_uploads').addClass('brf_uploads-active');
+        $(e.controller).closest('.brf_uploads').collapse();
+    });
+    BX.addCustomEvent('uploadStart', function(e) {
+        $(e.fileInput).closest('.file-selector').addClass('file-selector_hidden');
+    });
+    $('body').on('click', '.comment__anchor', function(e) {
+        e.preventDefault();
+        $('._found').removeClass('_found').removeClass('_found_and_faded').removeAttr('data-scrolled');
+        let answerContainer = $(e.target).closest('[id^="answercontainer_"');
+        answerContainer.addClass('_found');
+        let answerHref = new URL(e.target.href);
+        let url = new URL(location.href);
+        url.searchParams.set('itape', answerHref.searchParams.get('itape'));
+        url.hash = '';
+        history.replaceState(null, '', url);
+        realcommenterScrollToFound();
+    });
+    BX.addCustomEvent('LHE_ConstructorInited', function(editor) {
+        if ($(editor.iFrame).closest('.add-comment__textarea').length) {
+            let css = `
+                body, .ig-frame-body {
+                    border:unset!important;
+                    background:transparent!important;
+                    color:${document.body.classList.contains('dark-theme') ? '#e4f1f4' : '#2c3450'};
+                }
+                body:focus, .ig-frame-body:focus {
+                    box-shadow:unset!important;
+                    border:unset!important;
+                }
+            `;
+            editor.systemCSS += css;
+            editor.AppendCSS(css);
+            editor.iFrame.contentDocument.body.classList.add('ig-frame-body');
+            editor.iFrame.classList.add('lha-iframe_inited', 'form-control');
+        }
+    });
+    $('body').on('click', '.comment__replay', function(e) {
+        e.preventDefault();
+        if (this.getAttribute('href')) {
+            $('.comment__anchor[href="' + this.getAttribute('href') + '"]').click();
+        }
+    });
+</script>
+</section>
+<div id="bxdynamic_jxX10R_end" style="display:none"></div>    </section>
+    <section class="col-xl-right mt-30 mt-xl-0 d-none d-xl-block">
+        <div id="bxdynamic_right_comments_start" style="display:none"></div><div id="bxdynamic_right_comments_end" style="display:none"></div>
+    </section>
+</section>
+
+    <section class="row">
+        <section class="col-12">
+
+                <div id="bxdynamic_after_comments_start" style="display:none"></div><div id="bxdynamic_after_comments_end" style="display:none"></div>
+        </section>
+    </section>
+
+<section class="row mb-0 mb-md-30">
+    <section class="col-12">
+        
+    <div id="newsTape">
+        <div class="row">
+            <div class="col">
+                <h2>Читайте также</h2>
+            </div>
+        </div>
+
+        <div class="row">
+                                                <div class="col-12 col-lg-6 col-xl mb-4 mb-md-30 mb-lg-0">
+
+                        <article class="article-popular height-stretch">
+    <div class="article-popular__media">
+                    <img class="article-popular__img" src="/upload/resize_cache/iblock/ad0/600_313_2/yzowqeb42yixxrel466z3sb6i1gfhcqf.png" alt="Производители российской электроники просят замедлить закупку импортной техники">
+            </div>
+        <div class="i-tag-list article-popular__tags">
+                        <a href="/search/rossiya/" class="i-tag">Россия</a>
+                </div>
+        <div class="article-popular__statistics statistics statistics--frame color-white">
+        <span class="statistics__text ">
+            <span class="count_views_for_list"></span>
+            <span id="news526257-views"></span>
+        </span>
+        <a href="/main/other/proizvoditeli_rossiyskoy_elektroniki_prosyat_zamedlit_zakup_importnoy_tekhniki/#itape" class="statistics__text color-white statistics__link">
+            <span class="count_comments_for_list"></span>
+            <span id="news526257-comments"></span>
+        </a>
+    </div>
+    <h2 class="article-popular__heading">
+        <a class="article-popular__link cover-link" href="/main/other/proizvoditeli_rossiyskoy_elektroniki_prosyat_zamedlit_zakup_importnoy_tekhniki/">Производители российской электроники просят замедлить закупку импортной техники</a>
+    </h2>
+</article>
+
+                    </div>
+                                                            <div class="col-12 col-sm-6 col-lg-3 col-xl-330 mb-4 mb-md-0">
+                    <article class="article-middle height-stretch">
+    <div class="article-middle__media">
+        <a href="/main/gadgets/tim_kuk_ne_upustil_shans_proreklamirovat_samyy_spornyy_gadzhet_apple_na_prezentatsii_porsche/" class="article-middle__media-link"></a>
+                    <img class="article-middle__img" src="/upload/resize_cache/iblock/2e7/330_180_2/req5dw5s6ensq3s8p3quizat35hfc8bv.jpg" alt="">
+                <div class="article-middle__statistics statistics statistics--frame color-white">
+            <span class="statistics__text ">
+                <span class="count_views_for_list"></span>
+                <span id="news526251-views"></span>
+            </span>
+            <a href="/main/gadgets/tim_kuk_ne_upustil_shans_proreklamirovat_samyy_spornyy_gadzhet_apple_na_prezentatsii_porsche/#itape" class="statistics__text color-white statistics__link">
+                <span class="count_comments_for_list"></span>
+                <span id="news526251-comments"></span>
+            </a>
+        </div>
+    </div>
+    <h4 class="article-middle__heading">
+        <a class="color-black" href="/main/gadgets/tim_kuk_ne_upustil_shans_proreklamirovat_samyy_spornyy_gadzhet_apple_na_prezentatsii_porsche/">Тим Кук не упустил шанс прорекламировать самый спорный гаджет Apple на презентации Porsche</a>
+    </h4>
+        <div class="i-tag-list article-middle__tags">
+                    <a href="/search/apple/" class="i-tag">Apple</a>
+                    <a href="/search/porsche/" class="i-tag">Porsche</a>
+            </div>
+    </article>
+                </div>
+                
+                                                            <div class="col-12 col-sm-6 col-lg-3 col-xl-right">
+                    <article class="article-middle height-stretch">
+    <div class="article-middle__media">
+        <a href="/main/other/apple_vypustila_spetsversiyu_ios_18_vendorui_dlya_testirovaniya_na_zavodakh_po_sborke_iphone_i_ipad/" class="article-middle__media-link"></a>
+                    <img class="article-middle__img" src="/upload/resize_cache/iblock/83f/330_180_2/e1axrp7ryg50lvna43f5nuahd96fhw4r.jpeg" alt="">
+                <div class="article-middle__statistics statistics statistics--frame color-white">
+            <span class="statistics__text ">
+                <span class="count_views_for_list"></span>
+                <span id="news526249-views"></span>
+            </span>
+            <a href="/main/other/apple_vypustila_spetsversiyu_ios_18_vendorui_dlya_testirovaniya_na_zavodakh_po_sborke_iphone_i_ipad/#itape" class="statistics__text color-white statistics__link">
+                <span class="count_comments_for_list"></span>
+                <span id="news526249-comments"></span>
+            </a>
+        </div>
+    </div>
+    <h4 class="article-middle__heading">
+        <a class="color-black" href="/main/other/apple_vypustila_spetsversiyu_ios_18_vendorui_dlya_testirovaniya_na_zavodakh_po_sborke_iphone_i_ipad/">Apple выпустила спецверсию iOS 18 VendorUI для тестирования на заводах по сборке iPhone и iPad</a>
+    </h4>
+        <div class="i-tag-list article-middle__tags">
+                    <a href="/search/ios-18/" class="i-tag">iOS 18</a>
+            </div>
+    </article>
+                </div>
+
+                            
+        </div>
+
+        
+        <section class="row mb-0" onclick="ajaxLoadMore(this, {'PAGEN_1':'2','NAV_NUMBER':'1','HISTORY_DISABLED':'1','IGNORE_ELEMENT_CODE':'tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi'}, '/local/templates/iguides-2022/ajax/content-feed/bottom-in-detail-news.php')">
+        <section class="col-12">
+            <button class="i-btn-loadmore">
+                <svg>
+                    <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#load-more"></use>
+                </svg>
+                Показать еще
+            </button>
+        </section>
+    </section>
+
+    </div>
+
+    </section>
+</section>
+
+<div style="padding-left: 15px; padding-right: 15px;">
+    <div id="bxdynamic_after_read_more_start" style="display:none"></div><div id="bxdynamic_after_read_more_end" style="display:none"></div></div>
+
+
+        </section>
+        <footer class="i-footer">
+            <div class="container-md">
+
+                                <script type="text/javascript">if (window.location.hash != '' && window.location.hash != '#') top.BX.ajax.history.checkRedirectStart('bxajaxid', '3a814053066361028340e39fae3c76b4')</script><div id="comp_3a814053066361028340e39fae3c76b4"><div class="footer-mail"  id="sender-subscribe">
+    
+    <script>
+        BX.ready(function()
+        {
+            BX.bind(BX("bx_subscribe_btn_footer_xBc93Q"), 'click', function() {
+                setTimeout(mailSender, 250);
+                return false;
+            });
+        });
+
+        function mailSender()
+        {
+            setTimeout(function() {
+                var btn = BX("bx_subscribe_btn_footer_xBc93Q");
+                if(btn)
+                {
+                    var btn_span = btn.querySelector("span");
+                    var btn_subscribe_width = btn_span.style.width;
+                    BX.addClass(btn, "send");
+                    btn_span.outterHTML = "<span><i class='fa fa-check'></i> ГОТОВО</span>";
+                    if(btn_subscribe_width)
+                        btn.querySelector("span").style["min-width"] = btn_subscribe_width+"px";
+                }
+            }, 400);
+        }
+    </script>
+    <div class="box-subscrube-horizontal">
+        <h2 class="color-white">Будь в курсе последних новостей из мира гаджетов и технологий</h2>
+        
+<form role="form"
+                action="/main/os/tele2_mozhet_taykom_podklyuchit_dve_platnye_uslugi/"
+                method="post" onsubmit="BX('bx_subscribe_btn_footer_xBc93Q').disabled=true;"><input type="hidden" name="bxajaxid" id="bxajaxid_3a814053066361028340e39fae3c76b4_XrQFCj" value="3a814053066361028340e39fae3c76b4" /><input type="hidden" name="AJAX_CALL" value="Y" /><script type="text/javascript">
+function _processform_XrQFCj(){
+	if (BX('bxajaxid_3a814053066361028340e39fae3c76b4_XrQFCj'))
+	{
+		var obForm = BX('bxajaxid_3a814053066361028340e39fae3c76b4_XrQFCj').form;
+		BX.bind(obForm, 'submit', function() {BX.ajax.submitComponentForm(this, 'comp_3a814053066361028340e39fae3c76b4', true)});
+	}
+	BX.removeCustomEvent('onAjaxSuccess', _processform_XrQFCj);
+}
+if (BX('bxajaxid_3a814053066361028340e39fae3c76b4_XrQFCj'))
+	_processform_XrQFCj();
+else
+	BX.addCustomEvent('onAjaxSuccess', _processform_XrQFCj);
+</script>
+            <input type="hidden" name="sessid" id="sessid_4" value="" />            <div class="input-group-subscribe input-group-subscribe--white">
+                <input type="hidden" name="sender_subscription" value="add">
+
+                <input type="email"
+                       class="form-control no-bg"
+                       name="SENDER_SUBSCRIBE_EMAIL"
+                       value=""
+                       title="Введите ваш e-mail"
+                       placeholder="Введите ваш e-mail">
+
+                                                            <input type="hidden" name="SENDER_SUBSCRIBE_RUB_ID[]"  value="20" checked >
+                                    
+                <button type="submit" class="i-btn-enter"  id="bx_subscribe_btn_footer_xBc93Q"><svg>
+                        <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#arrow-right"></use>
+                    </svg></button>
+            </div>
+        </form>
+    </div>
+</div>
+</div><script type="text/javascript">if (top.BX.ajax.history.bHashCollision) top.BX.ajax.history.checkRedirectFinish('bxajaxid', '3a814053066361028340e39fae3c76b4');</script><script type="text/javascript">top.BX.ready(BX.defer(function() {window.AJAX_PAGE_STATE = new top.BX.ajax.component('comp_3a814053066361028340e39fae3c76b4'); top.BX.ajax.history.init(window.AJAX_PAGE_STATE);}))</script>                
+
+                <div class="i-footer-container">
+
+                    
+
+    <ul class="i-bottom-menu">
+
+		
+			
+							<li class="i-bottom-menu__item">
+					<a href="/about/" class="color-dim-black">Об издании</a>
+				</li>
+				
+		
+			
+							<li class="i-bottom-menu__item">
+					<a href="/specialpr/" class="color-dim-black">Спецпроекты</a>
+				</li>
+				
+		
+			
+							<li class="i-bottom-menu__item">
+					<a href="/contacts/" class="color-dim-black">Контакты</a>
+				</li>
+				
+		
+			
+							<li class="i-bottom-menu__item">
+					<a href="/advertising/" class="color-dim-black">Реклама</a>
+				</li>
+				
+		
+			
+							<li class="i-bottom-menu__item">
+					<a href="/rules.php" class="color-dim-black">Правила</a>
+				</li>
+				
+		
+			
+							<li class="i-bottom-menu__item">
+					<a href="/wtfblogs.php" class="color-dim-black">Блоги</a>
+				</li>
+				
+		  	</ul>
+
+
+                    <div class="i-footer-social">
+                    
+    <div class="">
+
+            <a target="_blank" href="https://vk.com/iguides" class="i-btn-social"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-vk"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://twitter.com/iGuides_ru" class="i-btn-social"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-tw"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://t.me/iguides" class="i-btn-social"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-telegram"></use>
+            </svg>
+        </a>
+            <a target="_blank" href="https://ok.ru/group/70000003802751" class="i-btn-social"><svg>
+                <use xlink:href="/local/templates/iguides-2022/img/svg/icons.svg#social-net-od"></use>
+            </svg>
+        </a>
+        </div>
+
+                    </div>
+
+                    <div class="i-footer-label color-dim-black">
+                        <div class="i-footer-label-text">iGuides для смартфонов Apple</div>
+                        <a class="i-footer-store" href="https://itunes.apple.com/ru/app/iguides/id467633606?l=ru&ls=1&mt=8&uo=8&at=11l6cR" target="_blank">
+                            <img class="" src="/local/templates/iguides-2022/img/app-store.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-0 i-footer-bottom text-12 color-light-black">
+                    <div class="col">
+                        2009 -
+                        2024 iguides.ru. Все права защищены.
+                    </div>
+                    <div class="col">
+                        <a class="color-light-black" href="/policy/">Политика конфиденциальности</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+
+    <!-- кнопки -->
+    <div id="bxdynamic_kPIpd9_start" style="display:none"></div><div id="bxdynamic_kPIpd9_end" style="display:none"></div>
+    <script>
+        function loadJSParams(arId, arValues, arClasses){
+            var i = arId, s = arValues, c = arClasses, e;
+            for(var k=0; k < i.length; k++){
+                if(e = document.getElementById(i[k])){
+                    if(c[k].length > 0)
+                        e.className += ' ' + c[k];
+                    e.innerHTML = s[k];
+                }
+            }
+        }
+    </script>
+
+    <div id="bxdynamic_pageJSParams_start" style="display:none"></div>    <script>
+        ;(function(){
+            var arId = ['views_num_detail','comments_num_detail','news526257-views','news526251-views','news526249-views','news526257-comments','news526251-comments','news526249-comments'],
+                arValues = ['27405','6','132','283','468','0','0','0'],
+                arClasses = ['','','','','','','',''];
+            loadJSParams(arId, arValues, arClasses);
+        })();
+    </script>
+    <div id="bxdynamic_pageJSParams_end" style="display:none"></div>    
+    
+
+</body>
+</html>
+<!--f1abbbed97b01a33b5a08c0291c4a201-->

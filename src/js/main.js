@@ -1,3 +1,6 @@
+// модалка
+
+
 // переменные пк выбор города
 const changeСity = document.querySelector(".header_city")
 const tableCity = document.querySelector(".city-desctop")
@@ -100,18 +103,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
