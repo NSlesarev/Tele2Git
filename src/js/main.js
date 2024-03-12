@@ -16,7 +16,6 @@ const headerCityMobile = document.querySelector(".header_city_city")
 const cityConfirmationModal = document.querySelector(".header-planka");
 const confirmCityBtn = document.querySelector(".header-planka__options__yes");
 const changeCityBtn = document.querySelector(".header-planka__options__change");
-const currentCitySpan = document.getElementById("currentCity");
 const modalBackground = document.querySelector(".background-color-modal");
 
 // добавляет фон прозрачный 
