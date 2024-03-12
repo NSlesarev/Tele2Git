@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/Tele2Git/assets/lofofav32x32-erIZMqWN.png" type="image/x-icon">
     <title>Tele2 - это ваша выгода</title>
-    <script type="module" crossorigin src="/Tele2Git/assets/index-BD01mT0R.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/inputmask.min.js"></script>
+    <script type="module" crossorigin src="/Tele2Git/assets/index-BhdN44K4.js"></script>
     <link rel="stylesheet" crossorigin href="/Tele2Git/assets/index-Bfw62w-j.css">
   </head>
   <body>
@@ -128,9 +129,9 @@
             <h2 class="number_text_title_mobile">Оставьте номер<br> и<span class="number_span_blue"> 1 ТБ — ваш</span></h2>
             <h2 class="number_text_title_desctop">Несколько шагов<br><span class="number_span_blue">и 1 ТБ — ваш</span></h2>
             <form class="form_number_desctop">
-                <label class="number_text_tel">
+                <label class="number_text_tel" for="phone">
                     <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
-                    <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+                    <input class="number_text_tel_num" id="phone" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
                 </label>
                 <p>               
                     <input class="number_text_data_box" type="checkbox" id="agree-des">
@@ -156,9 +157,9 @@
             </div>
         </aside>
         <form class="form_number_mobile">
-            <label class="number_text_tel">
+            <label class="number_text_tel" for="phonem">
                 <p class="number_text_tel_opisanie" name="telephone">Номер телефона</p>
-                <input class="number_text_tel_num" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
+                <input class="number_text_tel_num" id="phonem" type="tel" placeholder="+7 (988) 543-32-34" required autocomplete="off">
             </label>
             <p>               
                 <input class="number_text_data_box" type="checkbox" id="agree-mob">
