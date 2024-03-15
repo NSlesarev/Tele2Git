@@ -1,4 +1,6 @@
-// модалка
+// переменные для модального окна
+const buttonModal = document.querySelector(".promo_button")
+const formModal = document.querySelector(".mod")
 
 
 // переменные пк выбор города
@@ -121,4 +123,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+// Добавляем обработчик события на клик по кнопке
+buttonModal.addEventListener('click', function() {
+  // Добавляем класс .visible, чтобы показать форму
+  formModal.classList.add('visible');
+})
