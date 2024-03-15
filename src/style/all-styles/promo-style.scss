@@ -43,7 +43,7 @@ body{
 .promo_text_title_span_color {
     color: $spantext;
 }
-.promo_text_opisanie {
+.promo_text_description {
     color: $osnovatext;
     font-family: 'Tele2 Text';
     font-size: 20px;
@@ -111,7 +111,7 @@ body{
         margin-left: 16px;
         width: 285px;
     }
-    .promo_text_opisanie{
+    .promo_text_description{
         font-family: 'Tele2 Text';
         font-size: 18px;
         font-weight: 400;

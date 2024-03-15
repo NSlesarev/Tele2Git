@@ -45,7 +45,6 @@ changeСity.addEventListener("click",() => {
 
 tableCity.onclick = function(event){
 tableCity.classList.remove("visible");
-// body.classList.remove("modal-open");
 headerCity.innerHTML = event.target.innerHTML;
 };
 
@@ -57,7 +56,6 @@ changeСityMobile.addEventListener("click",() => {
 
 tableCityMobile.onclick = function(event){
 tableCityMobile.classList.remove("visible");
-// body.classList.remove("modal-open");
 headerCityMobile.innerHTML = event.target.innerHTML;
 };
 

@@ -30,7 +30,7 @@ $textgrey: grey;
         content: "";
         color: $osnovatext;
 }
-.modal-tel__opisanie {
+.modal-tel__description {
     margin-top: 64px;
     color: rgb(143, 147, 153);
     font-family: 'Tele2 Text';
@@ -63,8 +63,6 @@ $textgrey: grey;
     line-height: 138%;
     letter-spacing: 0%;
     text-align: left;
-}
-.modal-box {
 }
 #agree {
     display: none;

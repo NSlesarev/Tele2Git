@@ -15,7 +15,7 @@ $textgrey: grey;
 }
 
 
-.header-planka {
+.header-bar {
     color: $backgroundcolor;
     position: absolute;
     z-index: 10;
@@ -28,7 +28,7 @@ $textgrey: grey;
     
 }
     
-.header-planka__container__img{
+.header-bar__container__img{
     position: absolute;
     left: 234px;
     top: -10px;
@@ -36,7 +36,7 @@ $textgrey: grey;
 
 }
 
-.header-planka__container {
+.header-bar__container {
     display: flex;
     flex-direction: column;
     background-color: $osnovatext;
@@ -45,7 +45,7 @@ $textgrey: grey;
     border-radius: 10px;
     cursor: default;
 }
-.header-planka__container__title {
+.header-bar__container__title {
     font-family: 'Tele2 Text';
     font-size: 18px;
     font-weight: 400;
@@ -54,11 +54,11 @@ $textgrey: grey;
     margin-bottom: 16px;
     margin-top: 16px;
 }
-.header-planka__options {
+.header-bar__options {
     display: flex;
     flex-direction: row;
 }
-.header-planka__options__yes {
+.header-bar__options__yes {
     
     font-family: 'Tele2 Text';
     font-size: 16px;
@@ -76,7 +76,7 @@ $textgrey: grey;
         color: $spantext;
     }
 }
-.header-planka__options__change {
+.header-bar__options__change {
     font-family: 'Tele2 Text';
     font-size: 16px;
     font-weight: 400;
@@ -98,11 +98,11 @@ $textgrey: grey;
 }
 
 @media(max-width: 1100px){
-    .header-planka {
+    .header-bar {
         right: 37px;
         top: 68px;
     }
-    .header-planka__container {
+    .header-bar__container {
         width: 298px;
     }
 

@@ -27,7 +27,7 @@ $colorgrey: grey;
     width: 447px;
     
 }
-.rate-content__text__opisanie__desctop {
+.rate-content__text__description__desctop {
     color: $osnovatext;
     font-family: 'Tele2 Text';
     font-size: 20px;
@@ -37,7 +37,7 @@ $colorgrey: grey;
     width: 513px;
     margin-top: 30px;
 }
-.rate-content__text__opisanie__mobile {
+.rate-content__text__description__mobile {
     display: none;
     
 }
@@ -68,9 +68,6 @@ $colorgrey: grey;
     margin-right: 288px;
     margin-left: 118px;
 }
-.rate-content_img_img {
-    
-}
 .rate-content__text__button_mobile {
     display: none;
 }
@@ -96,10 +93,10 @@ $colorgrey: grey;
         letter-spacing: 0%;
         width: 268px;
     }
-    .rate-content__text__opisanie__desctop {
+    .rate-content__text__description__desctop {
         display: none;
     }
-    .rate-content__text__opisanie__mobile {
+    .rate-content__text__description__mobile {
         color: $osnovatext;
         display: block;
         font-family: 'Tele2 Text';
