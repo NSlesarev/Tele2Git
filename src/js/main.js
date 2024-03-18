@@ -1,6 +1,7 @@
 // переменные для модального окна
 const buttonModal = document.querySelector(".promo_button")
 const formModal = document.querySelector(".mod")
+const crossModal = document.querySelector(".img-cross");
 
 
 // переменные пк выбор города
@@ -19,6 +20,8 @@ const cityConfirmationModal = document.querySelector(".header-bar");
 const confirmCityBtn = document.querySelector(".header-bar__options__yes");
 const changeCityBtn = document.querySelector(".header-bar__options__change");
 const modalBackground = document.querySelector(".background-color-modal");
+
+
 
 // добавляет фон прозрачный 
 setTimeout(() => {
@@ -127,4 +130,9 @@ document.addEventListener("DOMContentLoaded", function() {
 buttonModal.addEventListener('click', function() {
   // Добавляем класс .visible, чтобы показать форму
   formModal.classList.add('visible');
+})
+
+
+crossModal.addEventListener("click", function() {
+  formModal.style.display = "none";
 })

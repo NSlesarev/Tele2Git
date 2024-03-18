@@ -25,9 +25,32 @@ $textgrey: grey;
     visibility: visible;
 }
 .cross {
-    margin-left: 450px;
+    position: relative;
+    
 }
 .button-cross {
+    background-color: $backgroundcolor;
+    display: contents;
+    
+   
+    
+    
+    
+}
+.img-cross {
+    position: absolute;
+    top: 11px;
+    left: 471px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    &:hover{
+        transform: scale(1.2);
+    }
+    
+    width: 20px;
+    height: 20px;
+    
+    
     
 }
 .modal {
@@ -138,6 +161,34 @@ $textgrey: grey;
 }
 
 @media(max-width: 1100px){
+
+    .cross {
+        position: relative;
+        
+    }
+    .button-cross {
+        background-color: $backgroundcolor;
+        display: contents;
+        
+       
+        
+        
+        
+    }
+    .img-cross {
+        position: absolute;
+        top: 11px;
+        left: 270px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        &:hover{
+            transform: scale(1.2);
+        }
+        
+        width: 20px;
+        height: 20px;  
+    }
+
     .mod{
         // display: none;
         position: absolute;
