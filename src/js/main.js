@@ -132,7 +132,7 @@ buttonModal.addEventListener('click', function() {
   formModal.classList.add('visible');
 })
 
-
+// Крестик для модального окна, отключает его
 crossModal.addEventListener("click", function() {
-  formModal.style.display = "none";
+  formModal.classList.remove('visible');
 })
